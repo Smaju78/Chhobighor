@@ -29,16 +29,26 @@ def split(v):
     return [x.strip() for x in (v or "").split(";") if x.strip()]
 
 
-def load_catalogue():
-    films = []
-    with open(DATA / "catalogue.csv", encoding="utf-8", newline="") as f:
-        for r in csv.DictReader(f):
-            fid = f"{slug(r['title'])}-{r['year']}"
-            films.append({
-                "id": fid, "section": r["section"], "title": r["title"], "alt": r["alt_title"] or "",
-                "year": int(r["year"]), "language": r["language"], "country": r["country"],
-                "directors": split(r["director"]), "genres": split(r.get("genres")), "cast": split(r["cast"]),
-            })
+def load_catalogue(include_generated=True):
+    """Hand-picked films (catalogue.csv), then films found on the channels (catalogue_channels.csv, which carry
+    their YouTube video id)."""
+    films, seen = [], set()
+    files = ["catalogue.csv"] + (["catalogue_channels.csv"] if include_generated else [])
+    for name in files:
+        if not (DATA / name).exists():
+            continue
+        with open(DATA / name, encoding="utf-8", newline="") as f:
+            for r in csv.DictReader(f):
+                fid = f"{slug(r['title']) or slug(r.get('wikidata', ''))}-{r['year']}"
+                if fid in seen:
+                    continue
+                seen.add(fid)
+                films.append({
+                    "id": fid, "section": r["section"], "title": r["title"], "alt": r["alt_title"] or "",
+                    "year": int(r["year"]), "language": r["language"], "country": r["country"],
+                    "directors": split(r["director"]), "genres": split(r.get("genres")), "cast": split(r["cast"]),
+                    "video": r.get("video") or "",
+                })
     return films
 
 

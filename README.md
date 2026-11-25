@@ -17,6 +17,9 @@ Static site in `docs/` (GitHub Pages); a small Python pipeline finds where each 
 1. `archive_match.py` finds world films on archive.org (no key; `--section all` to also try Indian films).
 2. `youtube_match.py` reads the allowed channels' uploads and matches Indian films. Needs `YOUTUBE_API_KEY=...`
    in `.env` (gitignored). Uses about 1 quota unit per 50 uploads; stops at `--budget` and resumes next run.
-3. `build_data.py` writes `docs/films.json` with every film that has at least one source.
+3. `channel_films.py` adds classics the allowed channels already host: it matches upload titles to films on Wikidata
+   (year <= `--max-year` 1990, at least `--min-sitelinks` 3 Wikipedia articles, director or a lead actor named in
+   the video) and writes `data/catalogue_channels.csv` (generated; hand-picked films stay in `catalogue.csv`).
+4. `build_data.py` writes `docs/films.json` with every film that has at least one source.
 
 Caches go in `cache/` (gitignored). Preview: serve `docs/` locally, e.g. `python3 -m http.server -d docs 8020`.

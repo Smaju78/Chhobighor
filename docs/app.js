@@ -24,7 +24,7 @@
   }
   function embed(src) {
     return src.kind === "yt"
-      ? `https://www.youtube-nocookie.com/embed/${src.id}?autoplay=1&rel=0&modestbranding=1`
+      ? `https://www.youtube-nocookie.com/embed/${src.id}?autoplay=1&rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en&hl=en`
       : `https://archive.org/embed/${src.id}?autoplay=1`;
   }
   function watchUrl(src) {
@@ -201,7 +201,7 @@
     if (!FILMS.length) return render(`<p class="empty"><b>The reels are still being fetched</b>No films have been built yet.</p>`, "home");
     if (!a) return home();
     if (a === "indian" || a === "world") return listing(FILMS.filter((f) => f.s === a), { title: SECTION[a], nav: a, path, q,
-      sub: a === "indian" ? "From the studios' and distributors' own channels: Hindi, Bengali and other Indian languages." : "Public-domain classics from the silent era to the 1960s." });
+      sub: a === "indian" ? "From the studios' and distributors' own channels: Hindi, Bengali and other Indian languages." : "Public-domain classics from the silent era on, and Soviet classics from Mosfilm's and Gorky Studio's own channels." });
     if (a === "decade" && b) return listing(FILMS.filter((f) => decade(f.y) === b), { title: `The ${b}`, nav: "", path, q });
     if (a === "language" && b) return listing(FILMS.filter((f) => f.l === b), { title: b === "Silent" ? "Silent films" : `In ${b}`, nav: "", path, q });
     if (a === "genre" && b) return listing(FILMS.filter((f) => f.g.includes(b)), { title: b, sub: "Genre", nav: "", path, q });

@@ -10,3 +10,11 @@
 @eskaymoviesonline     Eskay Movies
 @svfmovies             SVF Movies
 # Not added (ownership unclear): @uttamkumarmoviess "Uttam Kumar Movies", @angelmoviessubtitle "Bengali Movies with English Subtitle"
+# World cinema: studios' and national film archives' own channels
+@mosfilm_eng           Mosfilm (English subtitles)
+@mosfilmruofficial     Mosfilm (Russian)
+@gorkyfilmstudio       Gorky Film Studio
+@-dovzhenkocenter8117  Dovzhenko Centre (Ukraine)
+@nemzetifilmintezet    National Film Institute Hungary
+@wfdif-studiofilmowekadr3444  WFDiF - Studio Filmowe Kadr (Poland)
+@filmotekanarodowa     Filmoteka Narodowa (Poland)

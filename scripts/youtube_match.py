@@ -188,7 +188,7 @@ def main():
     ap.add_argument("--section", default="indian", help="indian (default), world or all")
     a = ap.parse_args()
     api = Api(api_key(), a.budget)
-    films = [f for f in load_catalogue() if a.section == "all" or f["section"] == a.section]
+    films = [f for f in load_catalogue(include_generated=False) if a.section == "all" or f["section"] == a.section]
     uploads = {}
     try:
         for handle, label in channels():

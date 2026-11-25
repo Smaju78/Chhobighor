@@ -7,10 +7,14 @@ from common import CACHE, DOCS, load_catalogue, read_json, write_json
 def main():
     archive = read_json(CACHE / "archive.json", {})
     yt = read_json(CACHE / "youtube" / "matches.json", {})
+    videos = read_json(CACHE / "youtube" / "videos.json", {})
     films, missing = [], []
     for f in load_catalogue():
         sources = []
-        if yt.get(f["id"]):
+        v = videos.get(f["video"]) if f["video"] else None
+        if v:
+            sources.append({"kind": "yt", "id": f["video"], "by": v["channel"], "mins": round(v["secs"] / 60)})
+        elif yt.get(f["id"]):
             m = yt[f["id"]]
             sources.append({"kind": "yt", "id": m["video"], "by": m["channel"], "mins": round(m["seconds"] / 60)})
         if archive.get(f["id"]):

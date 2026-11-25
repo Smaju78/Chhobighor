@@ -37,7 +37,7 @@ def load_catalogue():
             films.append({
                 "id": fid, "section": r["section"], "title": r["title"], "alt": r["alt_title"] or "",
                 "year": int(r["year"]), "language": r["language"], "country": r["country"],
-                "directors": split(r["director"]), "cast": split(r["cast"]),
+                "directors": split(r["director"]), "genres": split(r.get("genres")), "cast": split(r["cast"]),
             })
     return films
 

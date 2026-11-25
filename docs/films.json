@@ -12,6 +12,11 @@
    "d": [
     "Guru Dutt"
    ],
+   "g": [
+    "Comedy",
+    "Romance",
+    "Musical"
+   ],
    "cast": [
     "Guru Dutt",
     "Madhubala",
@@ -37,6 +42,10 @@
    "d": [
     "Bimal Roy"
    ],
+   "g": [
+    "Drama",
+    "Social"
+   ],
    "cast": [
     "Balraj Sahni",
     "Nirupa Roy"
@@ -60,6 +69,10 @@
    "c": "India",
    "d": [
     "Bimal Roy"
+   ],
+   "g": [
+    "Romance",
+    "Drama"
    ],
    "cast": [
     "Dilip Kumar",
@@ -87,6 +100,11 @@
    "d": [
     "Bimal Roy"
    ],
+   "g": [
+    "Romance",
+    "Mystery",
+    "Musical"
+   ],
    "cast": [
     "Dilip Kumar",
     "Vyjayanthimala",
@@ -113,6 +131,11 @@
    "d": [
     "Bimal Roy"
    ],
+   "g": [
+    "Drama",
+    "Social",
+    "Romance"
+   ],
    "cast": [
     "Nutan",
     "Sunil Dutt",
@@ -138,6 +161,11 @@
    "d": [
     "Raj Kapoor"
    ],
+   "g": [
+    "Drama",
+    "Crime",
+    "Musical"
+   ],
    "cast": [
     "Raj Kapoor",
     "Nargis",
@@ -162,6 +190,11 @@
    "c": "India",
    "d": [
     "Raj Kapoor"
+   ],
+   "g": [
+    "Comedy",
+    "Drama",
+    "Musical"
    ],
    "cast": [
     "Raj Kapoor",
@@ -189,6 +222,10 @@
     "Sombhu Mitra",
     "Amit Maitra"
    ],
+   "g": [
+    "Satire",
+    "Drama"
+   ],
    "cast": [
     "Raj Kapoor",
     "Pradeep Kumar",
@@ -213,6 +250,10 @@
    "c": "India",
    "d": [
     "Mehboob Khan"
+   ],
+   "g": [
+    "Drama",
+    "Social"
    ],
    "cast": [
     "Nargis",
@@ -240,6 +281,11 @@
    "d": [
     "B. R. Chopra"
    ],
+   "g": [
+    "Drama",
+    "Social",
+    "Musical"
+   ],
    "cast": [
     "Dilip Kumar",
     "Vyjayanthimala",
@@ -266,6 +312,11 @@
    "d": [
     "Vijay Anand"
    ],
+   "g": [
+    "Drama",
+    "Romance",
+    "Musical"
+   ],
    "cast": [
     "Dev Anand",
     "Waheeda Rehman",
@@ -290,6 +341,10 @@
    "c": "India",
    "d": [
     "Satyen Bose"
+   ],
+   "g": [
+    "Comedy",
+    "Musical"
    ],
    "cast": [
     "Kishore Kumar",
@@ -317,6 +372,10 @@
    "d": [
     "Gyan Mukherjee"
    ],
+   "g": [
+    "Crime",
+    "Drama"
+   ],
    "cast": [
     "Ashok Kumar",
     "Mumtaz Shanti"
@@ -341,6 +400,10 @@
    "d": [
     "Franz Osten"
    ],
+   "g": [
+    "Romance",
+    "Social"
+   ],
    "cast": [
     "Ashok Kumar",
     "Devika Rani"
@@ -364,6 +427,10 @@
    "c": "India",
    "d": [
     "Yash Chopra"
+   ],
+   "g": [
+    "Drama",
+    "Family"
    ],
    "cast": [
     "Sunil Dutt",
@@ -392,6 +459,11 @@
    "d": [
     "Hrishikesh Mukherjee"
    ],
+   "g": [
+    "Drama",
+    "Romance",
+    "Musical"
+   ],
    "cast": [
     "Amitabh Bachchan",
     "Jaya Bhaduri"
@@ -415,6 +487,11 @@
    "c": "India",
    "d": [
     "Kamal Amrohi"
+   ],
+   "g": [
+    "Romance",
+    "Drama",
+    "Musical"
    ],
    "cast": [
     "Meena Kumari",
@@ -441,6 +518,10 @@
    "d": [
     "Basu Chatterjee"
    ],
+   "g": [
+    "Romance",
+    "Drama"
+   ],
    "cast": [
     "Amol Palekar",
     "Vidya Sinha",
@@ -466,6 +547,10 @@
    "d": [
     "Shyam Benegal"
    ],
+   "g": [
+    "Drama",
+    "Social"
+   ],
    "cast": [
     "Shabana Azmi",
     "Anant Nag",
@@ -490,6 +575,9 @@
    "c": "India",
    "d": [
     "Shyam Benegal"
+   ],
+   "g": [
+    "Drama"
    ],
    "cast": [
     "Smita Patil",
@@ -517,6 +605,10 @@
    "d": [
     "Satyajit Ray"
    ],
+   "g": [
+    "Historical",
+    "Satire"
+   ],
    "cast": [
     "Sanjeev Kumar",
     "Saeed Jaffrey",
@@ -543,6 +635,10 @@
    "d": [
     "Mrinal Sen"
    ],
+   "g": [
+    "Comedy",
+    "Drama"
+   ],
    "cast": [
     "Utpal Dutt",
     "Suhasini Mulay"
@@ -567,6 +663,10 @@
    "d": [
     "Sai Paranjpye"
    ],
+   "g": [
+    "Romance",
+    "Drama"
+   ],
    "cast": [
     "Naseeruddin Shah",
     "Shabana Azmi"
@@ -590,6 +690,10 @@
    "c": "India",
    "d": [
     "Sagar Sarhadi"
+   ],
+   "g": [
+    "Drama",
+    "Social"
    ],
    "cast": [
     "Smita Patil",
@@ -616,6 +720,10 @@
    "c": "India",
    "d": [
     "Satyajit Ray"
+   ],
+   "g": [
+    "Drama",
+    "Family"
    ],
    "cast": [
     "Kanu Banerjee",
@@ -644,6 +752,10 @@
    "d": [
     "Satyajit Ray"
    ],
+   "g": [
+    "Drama",
+    "Family"
+   ],
    "cast": [
     "Pinaki Sengupta",
     "Smaran Ghosal",
@@ -670,6 +782,10 @@
    "d": [
     "Satyajit Ray"
    ],
+   "g": [
+    "Drama",
+    "Musical"
+   ],
    "cast": [
     "Chhabi Biswas",
     "Padma Devi"
@@ -693,6 +809,11 @@
    "c": "India",
    "d": [
     "Satyajit Ray"
+   ],
+   "g": [
+    "Mystery",
+    "Adventure",
+    "Family"
    ],
    "cast": [
     "Soumitra Chatterjee",
@@ -720,6 +841,11 @@
    "d": [
     "Satyajit Ray"
    ],
+   "g": [
+    "Fantasy",
+    "Satire",
+    "Musical"
+   ],
    "cast": [
     "Tapen Chatterjee",
     "Rabi Ghosh",
@@ -746,6 +872,9 @@
    "d": [
     "Ritwik Ghatak"
    ],
+   "g": [
+    "Drama"
+   ],
    "cast": [
     "Madhabi Mukherjee",
     "Abhi Bhattacharya",
@@ -771,6 +900,11 @@
    "d": [
     "Sunil Banerjee"
    ],
+   "g": [
+    "Historical",
+    "Romance",
+    "Musical"
+   ],
    "cast": [
     "Uttam Kumar",
     "Tanuja"
@@ -794,6 +928,9 @@
    "c": "India",
    "d": [
     "Pinaki Bhushan Mukherjee"
+   ],
+   "g": [
+    "Drama"
    ],
    "cast": [
     "Uttam Kumar",
@@ -821,6 +958,10 @@
    "d": [
     "Georges Méliès"
    ],
+   "g": [
+    "Sci-Fi",
+    "Fantasy"
+   ],
    "cast": [
     "Georges Méliès"
    ],
@@ -843,6 +984,10 @@
    "d": [
     "Edwin S. Porter"
    ],
+   "g": [
+    "Western",
+    "Crime"
+   ],
    "cast": [
     "Broncho Billy Anderson"
    ],
@@ -864,6 +1009,10 @@
    "c": "USA",
    "d": [
     "D. W. Griffith"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
    ],
    "cast": [
     "Lillian Gish",
@@ -889,6 +1038,10 @@
    "d": [
     "D. W. Griffith"
    ],
+   "g": [
+    "Drama",
+    "Romance"
+   ],
    "cast": [
     "Lillian Gish",
     "Richard Barthelmess",
@@ -912,6 +1065,10 @@
    "c": "Germany",
    "d": [
     "Robert Wiene"
+   ],
+   "g": [
+    "Horror",
+    "Mystery"
    ],
    "cast": [
     "Werner Krauss",
@@ -937,6 +1094,10 @@
    "d": [
     "D. W. Griffith"
    ],
+   "g": [
+    "Drama",
+    "Romance"
+   ],
    "cast": [
     "Lillian Gish",
     "Richard Barthelmess"
@@ -960,6 +1121,10 @@
    "d": [
     "Fred Niblo"
    ],
+   "g": [
+    "Adventure",
+    "Action"
+   ],
    "cast": [
     "Douglas Fairbanks",
     "Noah Beery"
@@ -982,6 +1147,9 @@
    "c": "Germany",
    "d": [
     "F. W. Murnau"
+   ],
+   "g": [
+    "Horror"
    ],
    "cast": [
     "Max Schreck",
@@ -1007,6 +1175,9 @@
    "d": [
     "Robert J. Flaherty"
    ],
+   "g": [
+    "Documentary"
+   ],
    "cast": [
     "Allakariallak"
    ],
@@ -1028,6 +1199,10 @@
    "c": "Sweden",
    "d": [
     "Benjamin Christensen"
+   ],
+   "g": [
+    "Horror",
+    "Documentary"
    ],
    "cast": [
     "Benjamin Christensen",
@@ -1053,6 +1228,9 @@
     "Fred C. Newmeyer",
     "Sam Taylor"
    ],
+   "g": [
+    "Comedy"
+   ],
    "cast": [
     "Harold Lloyd",
     "Mildred Davis"
@@ -1077,6 +1255,9 @@
     "Buster Keaton",
     "John G. Blystone"
    ],
+   "g": [
+    "Comedy"
+   ],
    "cast": [
     "Buster Keaton",
     "Natalie Talmadge"
@@ -1099,6 +1280,10 @@
    "c": "USA",
    "d": [
     "Wallace Worsley"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
    ],
    "cast": [
     "Lon Chaney",
@@ -1123,6 +1308,9 @@
    "d": [
     "Buster Keaton"
    ],
+   "g": [
+    "Comedy"
+   ],
    "cast": [
     "Buster Keaton",
     "Kathryn McGuire"
@@ -1146,6 +1334,9 @@
    "d": [
     "F. W. Murnau"
    ],
+   "g": [
+    "Drama"
+   ],
    "cast": [
     "Emil Jannings"
    ],
@@ -1167,6 +1358,10 @@
    "c": "USA",
    "d": [
     "Raoul Walsh"
+   ],
+   "g": [
+    "Fantasy",
+    "Adventure"
    ],
    "cast": [
     "Douglas Fairbanks",
@@ -1191,6 +1386,10 @@
    "d": [
     "Sergei Eisenstein"
    ],
+   "g": [
+    "Historical",
+    "War"
+   ],
    "cast": [
     "Aleksandr Antonov",
     "Vladimir Barsky"
@@ -1214,6 +1413,10 @@
    "d": [
     "Charlie Chaplin"
    ],
+   "g": [
+    "Comedy",
+    "Adventure"
+   ],
    "cast": [
     "Charlie Chaplin",
     "Georgia Hale"
@@ -1236,6 +1439,9 @@
    "c": "USA",
    "d": [
     "Rupert Julian"
+   ],
+   "g": [
+    "Horror"
    ],
    "cast": [
     "Lon Chaney",
@@ -1261,6 +1467,9 @@
     "Fred C. Newmeyer",
     "Sam Taylor"
    ],
+   "g": [
+    "Comedy"
+   ],
    "cast": [
     "Harold Lloyd",
     "Jobyna Ralston"
@@ -1285,6 +1494,11 @@
     "Buster Keaton",
     "Clyde Bruckman"
    ],
+   "g": [
+    "Comedy",
+    "Action",
+    "War"
+   ],
    "cast": [
     "Buster Keaton",
     "Marion Mack"
@@ -1307,6 +1521,10 @@
    "c": "Germany",
    "d": [
     "F. W. Murnau"
+   ],
+   "g": [
+    "Fantasy",
+    "Horror"
    ],
    "cast": [
     "Emil Jannings",
@@ -1332,6 +1550,10 @@
    "d": [
     "Fritz Lang"
    ],
+   "g": [
+    "Sci-Fi",
+    "Drama"
+   ],
    "cast": [
     "Brigitte Helm",
     "Gustav Fröhlich",
@@ -1356,6 +1578,10 @@
    "d": [
     "F. W. Murnau"
    ],
+   "g": [
+    "Romance",
+    "Drama"
+   ],
    "cast": [
     "George O'Brien",
     "Janet Gaynor"
@@ -1379,6 +1605,9 @@
    "d": [
     "Ted Wilde"
    ],
+   "g": [
+    "Comedy"
+   ],
    "cast": [
     "Harold Lloyd",
     "Jobyna Ralston"
@@ -1401,6 +1630,10 @@
    "c": "USA",
    "d": [
     "William A. Wellman"
+   ],
+   "g": [
+    "War",
+    "Romance"
    ],
    "cast": [
     "Clara Bow",
@@ -1426,6 +1659,10 @@
    "d": [
     "Alfred Hitchcock"
    ],
+   "g": [
+    "Thriller",
+    "Mystery"
+   ],
    "cast": [
     "Ivor Novello",
     "June Tripp"
@@ -1448,6 +1685,10 @@
    "c": "France",
    "d": [
     "Carl Theodor Dreyer"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
    ],
    "cast": [
     "Renée Falconetti",
@@ -1472,6 +1713,9 @@
    "d": [
     "Charles Reisner"
    ],
+   "g": [
+    "Comedy"
+   ],
    "cast": [
     "Buster Keaton",
     "Ernest Torrence"
@@ -1494,6 +1738,9 @@
    "c": "USA",
    "d": [
     "Charlie Chaplin"
+   ],
+   "g": [
+    "Comedy"
    ],
    "cast": [
     "Charlie Chaplin",
@@ -1518,6 +1765,9 @@
    "d": [
     "Dziga Vertov"
    ],
+   "g": [
+    "Documentary"
+   ],
    "cast": [],
    "src": [
     {
@@ -1537,6 +1787,9 @@
    "c": "Germany",
    "d": [
     "G. W. Pabst"
+   ],
+   "g": [
+    "Drama"
    ],
    "cast": [
     "Louise Brooks",
@@ -1561,6 +1814,10 @@
    "d": [
     "Alfred Hitchcock"
    ],
+   "g": [
+    "Thriller",
+    "Crime"
+   ],
    "cast": [
     "Anny Ondra",
     "John Longden"
@@ -1583,6 +1840,10 @@
    "c": "USA",
    "d": [
     "Lewis Milestone"
+   ],
+   "g": [
+    "War",
+    "Drama"
    ],
    "cast": [
     "Lew Ayres",
@@ -1607,6 +1868,10 @@
    "d": [
     "Josef von Sternberg"
    ],
+   "g": [
+    "Drama",
+    "Musical"
+   ],
    "cast": [
     "Emil Jannings",
     "Marlene Dietrich"
@@ -1629,6 +1894,10 @@
    "c": "USA",
    "d": [
     "Josef von Sternberg"
+   ],
+   "g": [
+    "Romance",
+    "Drama"
    ],
    "cast": [
     "Gary Cooper",
@@ -1653,6 +1922,10 @@
    "c": "USA",
    "d": [
     "Victor Heerman"
+   ],
+   "g": [
+    "Comedy",
+    "Musical"
    ],
    "cast": [
     "Groucho Marx",
@@ -1679,6 +1952,9 @@
    "d": [
     "Lewis Milestone"
    ],
+   "g": [
+    "Comedy"
+   ],
    "cast": [
     "Adolphe Menjou",
     "Pat O'Brien"
@@ -1702,6 +1978,10 @@
    "d": [
     "John Cromwell"
    ],
+   "g": [
+    "Drama",
+    "Romance"
+   ],
    "cast": [
     "Leslie Howard",
     "Bette Davis"
@@ -1724,6 +2004,9 @@
    "c": "UK",
    "d": [
     "Alfred Hitchcock"
+   ],
+   "g": [
+    "Thriller"
    ],
    "cast": [
     "Leslie Banks",
@@ -1749,6 +2032,10 @@
    "d": [
     "Alfred Hitchcock"
    ],
+   "g": [
+    "Thriller",
+    "Mystery"
+   ],
    "cast": [
     "Robert Donat",
     "Madeleine Carroll"
@@ -1771,6 +2058,9 @@
    "c": "USA",
    "d": [
     "Gregory La Cava"
+   ],
+   "g": [
+    "Comedy"
    ],
    "cast": [
     "William Powell",
@@ -1795,6 +2085,10 @@
    "d": [
     "William A. Wellman"
    ],
+   "g": [
+    "Comedy",
+    "Satire"
+   ],
    "cast": [
     "Carole Lombard",
     "Fredric March"
@@ -1817,6 +2111,10 @@
    "c": "USA",
    "d": [
     "William A. Wellman"
+   ],
+   "g": [
+    "Drama",
+    "Romance"
    ],
    "cast": [
     "Janet Gaynor",
@@ -1841,6 +2139,11 @@
    "d": [
     "Alfred Hitchcock"
    ],
+   "g": [
+    "Thriller",
+    "Mystery",
+    "Comedy"
+   ],
    "cast": [
     "Margaret Lockwood",
     "Michael Redgrave"
@@ -1863,6 +2166,10 @@
    "c": "USA",
    "d": [
     "John Cromwell"
+   ],
+   "g": [
+    "Crime",
+    "Romance"
    ],
    "cast": [
     "Charles Boyer",
@@ -1887,6 +2194,10 @@
    "d": [
     "John Cromwell"
    ],
+   "g": [
+    "Drama",
+    "Romance"
+   ],
    "cast": [
     "Carole Lombard",
     "James Stewart"
@@ -1910,6 +2221,11 @@
    "d": [
     "Dave Fleischer"
    ],
+   "g": [
+    "Animation",
+    "Fantasy",
+    "Family"
+   ],
    "cast": [],
    "src": [
     {
@@ -1929,6 +2245,9 @@
    "c": "USA",
    "d": [
     "Howard Hawks"
+   ],
+   "g": [
+    "Comedy"
    ],
    "cast": [
     "Cary Grant",
@@ -1954,6 +2273,10 @@
    "d": [
     "Frank Capra"
    ],
+   "g": [
+    "Drama",
+    "Comedy"
+   ],
    "cast": [
     "Gary Cooper",
     "Barbara Stanwyck"
@@ -1976,6 +2299,10 @@
    "c": "USA",
    "d": [
     "George Stevens"
+   ],
+   "g": [
+    "Drama",
+    "Romance"
    ],
    "cast": [
     "Irene Dunne",
@@ -2000,6 +2327,10 @@
    "d": [
     "Edgar G. Ulmer"
    ],
+   "g": [
+    "Noir",
+    "Crime"
+   ],
    "cast": [
     "Tom Neal",
     "Ann Savage"
@@ -2022,6 +2353,10 @@
    "c": "USA",
    "d": [
     "Fritz Lang"
+   ],
+   "g": [
+    "Noir",
+    "Crime"
    ],
    "cast": [
     "Edward G. Robinson",
@@ -2047,6 +2382,9 @@
    "d": [
     "Jean Renoir"
    ],
+   "g": [
+    "Drama"
+   ],
    "cast": [
     "Zachary Scott",
     "Betty Field"
@@ -2069,6 +2407,10 @@
    "c": "USA",
    "d": [
     "Orson Welles"
+   ],
+   "g": [
+    "Noir",
+    "Thriller"
    ],
    "cast": [
     "Edward G. Robinson",
@@ -2094,6 +2436,10 @@
    "d": [
     "James Edward Grant"
    ],
+   "g": [
+    "Western",
+    "Romance"
+   ],
    "cast": [
     "John Wayne",
     "Gail Russell"
@@ -2116,6 +2462,10 @@
    "c": "USA",
    "d": [
     "Rudolph Maté"
+   ],
+   "g": [
+    "Noir",
+    "Thriller"
    ],
    "cast": [
     "Edmond O'Brien",
@@ -2140,6 +2490,10 @@
    "d": [
     "Stanley Donen"
    ],
+   "g": [
+    "Musical",
+    "Romance"
+   ],
    "cast": [
     "Fred Astaire",
     "Jane Powell"
@@ -2162,6 +2516,10 @@
    "c": "USA",
    "d": [
     "Phil Karlson"
+   ],
+   "g": [
+    "Noir",
+    "Crime"
    ],
    "cast": [
     "John Payne",
@@ -2187,6 +2545,10 @@
    "d": [
     "Ida Lupino"
    ],
+   "g": [
+    "Noir",
+    "Thriller"
+   ],
    "cast": [
     "Edmond O'Brien",
     "Frank Lovejoy"
@@ -2209,6 +2571,10 @@
    "c": "UK",
    "d": [
     "John Huston"
+   ],
+   "g": [
+    "Comedy",
+    "Adventure"
    ],
    "cast": [
     "Humphrey Bogart",
@@ -2235,6 +2601,10 @@
    "d": [
     "Lewis Allen"
    ],
+   "g": [
+    "Noir",
+    "Thriller"
+   ],
    "cast": [
     "Frank Sinatra",
     "Sterling Hayden"
@@ -2257,6 +2627,10 @@
    "c": "USA",
    "d": [
     "Joseph H. Lewis"
+   ],
+   "g": [
+    "Noir",
+    "Crime"
    ],
    "cast": [
     "Cornel Wilde",
@@ -2282,6 +2656,9 @@
    "d": [
     "William Castle"
    ],
+   "g": [
+    "Horror"
+   ],
    "cast": [
     "Vincent Price",
     "Carol Ohmart"
@@ -2304,6 +2681,10 @@
    "c": "USA",
    "d": [
     "Roger Corman"
+   ],
+   "g": [
+    "Comedy",
+    "Horror"
    ],
    "cast": [
     "Jonathan Haze",
@@ -2329,6 +2710,9 @@
    "d": [
     "Herk Harvey"
    ],
+   "g": [
+    "Horror"
+   ],
    "cast": [
     "Candace Hilligoss"
    ],
@@ -2350,6 +2734,10 @@
    "c": "USA",
    "d": [
     "Andrew V. McLaglen"
+   ],
+   "g": [
+    "Western",
+    "Comedy"
    ],
    "cast": [
     "John Wayne",
@@ -2375,6 +2763,10 @@
     "Ubaldo Ragona",
     "Sidney Salkow"
    ],
+   "g": [
+    "Horror",
+    "Sci-Fi"
+   ],
    "cast": [
     "Vincent Price"
    ],
@@ -2396,6 +2788,9 @@
    "c": "USA",
    "d": [
     "George A. Romero"
+   ],
+   "g": [
+    "Horror"
    ],
    "cast": [
     "Duane Jones",

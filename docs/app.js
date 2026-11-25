@@ -95,7 +95,7 @@
       const pick = daily(list).slice(0, 8);
       return `<section><div class="head"><h2>${SECTION[s]}</h2><a href="#/${s}">All ${list.length} →</a></div>${grid(pick)}</section>`;
     };
-    const dec = counts(FILMS, (x) => decade(x.y)), lang = counts(FILMS, (x) => x.l), dir = counts(FILMS, (x) => x.d);
+    const dec = counts(FILMS, (x) => decade(x.y)), lang = counts(FILMS, (x) => x.l), dir = counts(FILMS, (x) => x.d), gen = counts(FILMS, (x) => x.g);
     const topDirs = [...dir.keys()].sort((a, b) => dir.get(b) - dir.get(a) || a.localeCompare(b)).slice(0, 16);
     render(`
       <div class="hero">${player(f)}
@@ -104,6 +104,7 @@
           ${f.cast.length ? `<p class="meta">With ${esc(f.cast.slice(0, 3).join(", "))}</p>` : ""}
           <div class="acts"><a class="pill" href="#/film/${f.id}">About this film</a></div></div></div>
       ${shelf("indian")}${shelf("world")}
+      <section><div class="head"><h2>By genre</h2></div><div class="chips">${[...gen.keys()].sort((a, b) => gen.get(b) - gen.get(a) || a.localeCompare(b)).map((k) => `<a class="chip" href="#/genre/${enc(k)}">${esc(k)}<b>${gen.get(k)}</b></a>`).join("")}</div></section>
       <section class="split">
         <div><div class="head"><h2>By decade</h2></div><div class="chips">${[...dec.keys()].sort().map((k) => `<a class="chip" href="#/decade/${k}">${k}<b>${dec.get(k)}</b></a>`).join("")}</div>
           <div class="head" style="margin-top:28px"><h2>By language</h2></div><div class="chips">${[...lang.keys()].sort((a, b) => lang.get(b) - lang.get(a)).map((k) => `<a class="chip" href="#/language/${enc(k)}">${esc(k)}<b>${lang.get(k)}</b></a>`).join("")}</div></div>
@@ -113,13 +114,14 @@
 
   // A filterable list: base set + optional decade/language filters from the query string.
   function listing(base, { title, sub, nav, path, q }) {
-    const dec = q.get("decade"), lang = q.get("language"), sort = q.get("sort") || "year";
+    const dec = q.get("decade"), lang = q.get("language"), gen = q.get("genre"), sort = q.get("sort") || "year";
     const href = (k, v) => { const p = new URLSearchParams(q); v == null ? p.delete(k) : p.set(k, v); const s = p.toString(); return `#${path}${s ? "?" + s : ""}`; };
-    let list = base.filter((f) => (!dec || decade(f.y) === dec) && (!lang || f.l === lang));
+    let list = base.filter((f) => (!dec || decade(f.y) === dec) && (!lang || f.l === lang) && (!gen || f.g.includes(gen)));
     list.sort(sort === "title" ? (a, b) => a.t.localeCompare(b.t) : (a, b) => a.y - b.y || a.t.localeCompare(b.t));
     const filters = [
       path.startsWith("/decade") ? "" : chipRow("Decade", counts(base, (f) => decade(f.y)), dec, (k) => href("decade", k), (a, b) => a.localeCompare(b)),
       path.startsWith("/language") ? "" : chipRow("Language", counts(base, (f) => f.l), lang, (k) => href("language", k)),
+      path.startsWith("/genre") ? "" : chipRow("Genre", counts(base, (f) => f.g), gen, (k) => href("genre", k)),
     ].join("");
     render(`<div class="pagehead"><span class="lab">${list.length} film${list.length === 1 ? "" : "s"}</span><h1>${esc(title)}</h1>${sub ? `<p>${sub}</p>` : ""}</div>
       <div class="filters">${filters}<div class="row"><span class="lab">Order</span><div class="chips">
@@ -162,6 +164,7 @@
         <span class="lab">${SECTION[f.s]}</span><h1>${esc(f.t)}</h1>${f.a && f.a !== f.t ? `<p class="alt">${esc(f.a)}</p>` : ""}
         <p class="meta"><a href="#/decade/${decade(f.y)}">${f.y}</a> · <a href="#/language/${enc(f.l)}">${esc(f.l)}</a> · ${esc(f.c)}${f.src[0].mins ? ` · ${f.src[0].mins} min` : ""}</p>
         <dl><dt>Director${f.d.length > 1 ? "s" : ""}</dt><dd>${people(f.d, "director")}</dd>
+        ${f.g.length ? `<dt>Genre</dt><dd>${people(f.g, "genre")}</dd>` : ""}
         ${f.cast.length ? `<dt>Cast</dt><dd>${people(f.cast, "actor")}</dd>` : ""}</dl></div>
         <aside class="credit"><span class="lab">Where it plays from</span>${f.src.map((s) => `<p>${credit(s)}</p>`).join("")}
           <div class="srcs">${f.src.map((s, i) => `${f.src.length > 1 ? `<button class="pill" type="button" data-switch="${i}">Play from ${s.kind === "yt" ? "YouTube" : "Archive"}</button>` : ""}<a class="pill" href="${watchUrl(s)}" target="_blank" rel="noopener">Open on ${s.kind === "yt" ? "YouTube" : "archive.org"} ↗</a>`).join("")}</div></aside>
@@ -175,7 +178,7 @@
 
   function search(qs) {
     const k = key(qs.trim());
-    const list = k ? FILMS.filter((f) => key([f.t, f.a, ...f.d, ...f.cast].join(" | ")).includes(k)) : [];
+    const list = k ? FILMS.filter((f) => key([f.t, f.a, ...f.d, ...f.g, ...f.cast].join(" | ")).includes(k)) : [];
     render(`<div class="pagehead"><span class="lab">${list.length} found</span><h1>“${esc(qs)}”</h1></div>${k ? grid(list) : ""}`, "", `Search: ${qs}`);
   }
 
@@ -201,6 +204,7 @@
       sub: a === "indian" ? "From the studios' and distributors' own channels: Hindi, Bengali and other Indian languages." : "Public-domain classics from the silent era to the 1960s." });
     if (a === "decade" && b) return listing(FILMS.filter((f) => decade(f.y) === b), { title: `The ${b}`, nav: "", path, q });
     if (a === "language" && b) return listing(FILMS.filter((f) => f.l === b), { title: b === "Silent" ? "Silent films" : `In ${b}`, nav: "", path, q });
+    if (a === "genre" && b) return listing(FILMS.filter((f) => f.g.includes(b)), { title: b, sub: "Genre", nav: "", path, q });
     if (a === "director" && b) return listing(FILMS.filter((f) => f.d.includes(b)), { title: b, sub: "Director", nav: "directors", path, q });
     if (a === "actor" && b) return listing(FILMS.filter((f) => f.cast.includes(b)), { title: b, sub: "Actor", nav: "actors", path, q });
     if (a === "directors") return peopleIndex("director");

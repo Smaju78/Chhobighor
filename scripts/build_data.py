@@ -19,7 +19,7 @@ def main():
             missing.append(f["title"])
             continue
         films.append({"id": f["id"], "s": f["section"], "t": f["title"], "a": f["alt"], "y": f["year"],
-                      "l": f["language"], "c": f["country"], "d": f["directors"], "cast": f["cast"], "src": sources})
+                      "l": f["language"], "c": f["country"], "d": f["directors"], "g": f["genres"], "cast": f["cast"], "src": sources})
     write_json(DOCS / "films.json", {"built": date.today().isoformat(), "films": films})
     print(f"docs/films.json: {len(films)} films ({sum(f['s'] == 'indian' for f in films)} Indian, "
           f"{sum(f['s'] == 'world' for f in films)} world). Not yet found: {len(missing)}.")

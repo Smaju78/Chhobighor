@@ -9,8 +9,8 @@ Static site in `docs/` (GitHub Pages); a small Python pipeline finds where each 
 - **Internet Archive** public-domain film collections (feature_films, silent_films, Film_Noir, …).
 
 ## Data
-- `data/catalogue.csv`: the hand-curated list (section, title, alt title, year, language, country, directors, cast;
-  multiple names separated by `;`). Add films here.
+- `data/catalogue.csv`: the hand-curated list (section, title, alt title, year, language, country, directors, genres,
+  cast; several values separated by `;`, main genre first). Add films here.
 - `data/channels.txt`: allowed YouTube channels.
 
 ## Pipeline (run in WSL: `python3 scripts/...`)

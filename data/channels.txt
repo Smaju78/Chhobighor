@@ -1,0 +1,12 @@
+# Rights-holder YouTube channels the site may link to (one @handle per line, then a label).
+# Only official channels of the films' owners or licensed distributors. Never add fan or re-upload channels.
+# youtube_match.py reports any handle it cannot resolve; check each new one by hand before adding it.
+@ShemarooMovies        Shemaroo Movies
+@shemaroo              Shemaroo
+@UltraMovieParlour     Ultra Movie Parlour
+@rajshri               Rajshri
+@NFDCIndia             NFDC (Cinemas of India)
+@bengalimoviesangeldigital  Bengali Movies - Angel Digital
+@eskaymoviesonline     Eskay Movies
+@svfmovies             SVF Movies
+# Not added (ownership unclear): @uttamkumarmoviess "Uttam Kumar Movies", @angelmoviessubtitle "Bengali Movies with English Subtitle"

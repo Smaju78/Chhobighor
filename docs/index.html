@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ছবিঘর · Chhobighor: classic films, free to watch</title>
+<meta name="description" content="Chhobighor: Indian and world film classics you can watch free and legally, from the rights holders' own YouTube channels and the Internet Archive's public-domain collection.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f1eadc">
+<script>
+  // Theme before the first paint: remembered choice, otherwise the system scheme.
+  (function () {
+    var th = null;
+    try { th = localStorage.getItem("chhobighor.theme"); } catch (e) { /* storage unavailable */ }
+    if (th !== "light" && th !== "dark") th = (window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+    document.documentElement.dataset.theme = th;
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tiro+Bangla&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Hind+Siliguri:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <!-- the mark: a line-drawn film reel -->
+  <symbol id="mark" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round">
+    <circle cx="24" cy="24" r="20"/><circle cx="24" cy="24" r="2.4"/>
+    <circle cx="24" cy="13" r="4.6"/><circle cx="34.5" cy="20.6" r="4.6"/><circle cx="30.5" cy="33" r="4.6"/><circle cx="17.5" cy="33" r="4.6"/><circle cx="13.5" cy="20.6" r="4.6"/>
+    <path d="M24 44h20" opacity=".8"/></g></symbol>
+  <symbol id="play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></symbol>
+</defs></svg>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="hub" href="/" aria-label="All of Sur: back to the hub" title="Sur hub"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="17" cy="20" r="11" fill="#b5695a" opacity=".92"/><circle cx="31" cy="20" r="11" fill="#7a5a9e" opacity=".92"/><circle cx="24" cy="32" r="11" fill="#3d6e86" opacity=".86"/></svg></a>
+    <a class="brand" href="#/"><svg viewBox="0 0 48 48" aria-hidden="true"><use href="#mark"/></svg><span class="brand-bn">ছবিঘর</span><small>Chhobighor</small></a>
+    <form class="search" id="search" role="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" id="q" placeholder="Film, director or actor" aria-label="Search films, directors and actors" autocomplete="off">
+    </form>
+    <button class="pill icon" type="button" id="theme" aria-label="Switch light or dark">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+  </div>
+  <nav class="wrap nav" aria-label="Main">
+    <a href="#/" data-nav="home">Home</a>
+    <a href="#/indian" data-nav="indian">Indian classics</a>
+    <a href="#/world" data-nav="world">World classics</a>
+    <a href="#/directors" data-nav="directors">Directors</a>
+    <a href="#/actors" data-nav="actors">Actors</a>
+    <a href="#/about" data-nav="about">About</a>
+  </nav>
+</header>
+
+<main id="view" class="wrap" tabindex="-1"><p class="loading">Threading the projector…</p></main>
+
+<footer class="foot wrap">
+  <p><span class="bn">ছবিঘর</span> lists films only from their rights holders' own YouTube channels and from the Internet Archive's public-domain collections. Films play from those sites; nothing is hosted here.</p>
+  <p><a href="#/about">About the sources</a> · <a href="/">More from Sur</a></p>
+</footer>
+<script src="app.js?v=1"></script>
+</body>
+</html>

@@ -14,7 +14,10 @@
 @mosfilm_eng           Mosfilm (English subtitles)
 @mosfilmruofficial     Mosfilm (Russian)
 @gorkyfilmstudio       Gorky Film Studio
-@-dovzhenkocenter8117  Dovzhenko Centre (Ukraine)
-@nemzetifilmintezet    National Film Institute Hungary
-@wfdif-studiofilmowekadr3444  WFDiF - Studio Filmowe Kadr (Poland)
-@filmotekanarodowa     Filmoteka Narodowa (Poland)
+# Official but no full films (checked 2026-11-26), so left out to save quota: their uploads are trailers, clips,
+# lectures and festival talks. Dovzhenko Centre 0/262 full films, National Film Institute Hungary 0/2570,
+# WFDiF Studio Kadr 0/137 (trailers only), Filmoteka Narodowa 0/345. Their films stream on their own sites.
+# @-dovzhenkocenter8117  Dovzhenko Centre (Ukraine)
+# @nemzetifilmintezet    National Film Institute Hungary
+# @wfdif-studiofilmowekadr3444  WFDiF - Studio Filmowe Kadr (Poland)
+# @filmotekanarodowa     Filmoteka Narodowa (Poland)

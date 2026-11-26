@@ -22,10 +22,12 @@
   function thumb(src) {
     return src.kind === "yt" ? `https://i.ytimg.com/vi/${src.id}/hqdefault.jpg` : `https://archive.org/services/img/${src.id}`;
   }
-  function embed(src) {
-    return src.kind === "yt"
-      ? `https://www.youtube-nocookie.com/embed/${src.id}?autoplay=1&rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en&hl=en`
-      : `https://archive.org/embed/${src.id}?autoplay=1`;
+  // A film uploaded in parts plays from the chosen part on through the rest, as one YouTube queue.
+  function embed(src, part = 0) {
+    if (src.kind !== "yt") return `https://archive.org/embed/${src.id}?autoplay=1`;
+    const id = src.parts ? src.parts[part] : src.id;
+    const rest = src.parts ? src.parts.slice(part + 1) : [];
+    return `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en&hl=en${rest.length ? `&playlist=${rest.join(",")}` : ""}`;
   }
   function watchUrl(src) {
     return src.kind === "yt" ? `https://www.youtube.com/watch?v=${src.id}` : `https://archive.org/details/${src.id}`;
@@ -68,13 +70,22 @@
 
   /* ---------- the player: a thumbnail until clicked, then the source's own embed ---------- */
   view.addEventListener("click", (e) => {
+    const part = e.target.closest("[data-part]");
+    if (part) return play($(".film > .screen"), +part.dataset.part);
     const go = e.target.closest(".go");
     if (!go) return;
-    const scr = go.closest(".screen");
+    play(go.closest(".screen"), 0);
+  });
+  function play(scr, part) {
     const f = BY_ID[scr.dataset.film], src = f.src[+scr.dataset.src || 0];
     scr.classList.add("playing");
-    scr.innerHTML = `<iframe src="${embed(src)}" title="${esc(f.t)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
-  });
+    scr.innerHTML = `<iframe src="${embed(src, part)}" title="${esc(f.t)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+  }
+  function partsRow(f, i = 0) {
+    const p = f.src[i].parts;
+    return p ? `<div class="parts"><span class="lab">On YouTube in ${p.length} parts, played one after another</span><div class="chips">${
+      p.map((_, n) => `<button class="chip" type="button" data-part="${n}">Part ${n + 1}</button>`).join("")}</div></div>` : "";
+  }
   function player(f, i = 0, cls = "big") {
     const src = f.src[i];
     return `<div class="screen ${cls}" data-film="${f.id}" data-src="${i}" data-title="${esc(f.t)}">
@@ -159,7 +170,7 @@
     const credit = (s) => s.kind === "yt"
       ? `Shared on YouTube by <b>${esc(s.by)}</b>, the film's rights holder or licensed distributor.`
       : `In the public domain, from the <b>Internet Archive</b>'s film collection.`;
-    render(`<div class="film">${player(f)}
+    render(`<div class="film">${player(f)}${partsRow(f)}
       <div class="info"><div>
         <span class="lab">${SECTION[f.s]}</span><h1>${esc(f.t)}</h1>${f.a && f.a !== f.t ? `<p class="alt">${esc(f.a)}</p>` : ""}
         <p class="meta"><a href="#/decade/${decade(f.y)}">${f.y}</a> · <a href="#/language/${enc(f.l)}">${esc(f.l)}</a> · ${esc(f.c)}${f.src[0].mins ? ` · ${f.src[0].mins} min` : ""}</p>
@@ -173,6 +184,9 @@
       ${more(`Also from the ${decade(f.y)}`, sameDec, `#/decade/${decade(f.y)}`)}</div>`, f.s, f.t);
     view.querySelectorAll("[data-switch]").forEach((b) => b.addEventListener("click", () => {
       $(".film > .screen").outerHTML = player(f, +b.dataset.switch);
+      const row = $(".film > .parts");
+      if (row) row.outerHTML = partsRow(f, +b.dataset.switch);
+      else $(".film > .screen").insertAdjacentHTML("afterend", partsRow(f, +b.dataset.switch));
     }));
   }
 

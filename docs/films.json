@@ -1,5 +1,5 @@
 {
- "built": "2026-11-25",
+ "built": "2026-11-26",
  "films": [
   {
    "id": "mr-mrs-55-1955",
@@ -5206,6 +5206,41 @@
    ]
   },
   {
+   "id": "journey-beyond-three-seas-1957",
+   "s": "indian",
+   "t": "Journey Beyond Three Seas",
+   "a": "परदेसी",
+   "y": 1957,
+   "l": "Hindi",
+   "c": "India",
+   "d": [
+    "Khwaja Ahmad Abbas",
+    "Vasili Pronin"
+   ],
+   "g": [
+    "Historical"
+   ],
+   "cast": [
+    "Oleg Strizhenov",
+    "Nargis",
+    "Padmini",
+    "Balraj Sahni",
+    "Prithviraj Kapoor"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "R5IYtpdhL9o",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 144,
+     "parts": [
+      "R5IYtpdhL9o",
+      "PvLHxkgNkDg"
+     ]
+    }
+   ]
+  },
+  {
    "id": "sharada-1957",
    "s": "indian",
    "t": "Sharada",
@@ -5971,6 +6006,52 @@
      "id": "AY9neb07ce8",
      "by": "Rajshri",
      "mins": 148
+    }
+   ]
+  },
+  {
+   "id": "bhoot-bungla-1965",
+   "s": "indian",
+   "t": "Bhoot Bungla",
+   "a": "भूत बंगला",
+   "y": 1965,
+   "l": "Hindi",
+   "c": "India",
+   "d": [
+    "Mehmood Ali"
+   ],
+   "g": [
+    "Horror"
+   ],
+   "cast": [
+    "Mehmood Ali",
+    "Tanuja",
+    "Nazir Hussain",
+    "Nana Palsikar",
+    "Asit Sen"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "ANdOd4tfaUE",
+     "by": "Rajshri",
+     "mins": 137,
+     "parts": [
+      "ANdOd4tfaUE",
+      "OKN5LnG96Zw",
+      "slr5XkpGHhc",
+      "WhFOj-1B3kQ",
+      "b08tyYXM_1Y",
+      "Vf2S0Oj6QbM",
+      "8KhXESmjgOs",
+      "P0vCv6HUv28",
+      "HmZAVwL4jls",
+      "woRbpUOM5kk",
+      "Mkd_w73x5qM",
+      "Vua57VGaCho",
+      "sCzeyrRQm4M",
+      "Z2FGHYIGj7s"
+     ]
     }
    ]
   },
@@ -8541,6 +8622,46 @@
    ]
   },
   {
+   "id": "chit-chor-1976",
+   "s": "indian",
+   "t": "Chit Chor",
+   "a": "चितचोर",
+   "y": 1976,
+   "l": "Hindi",
+   "c": "India",
+   "d": [
+    "Basu Chatterjee"
+   ],
+   "g": [
+    "Musical",
+    "Comedy",
+    "Romance"
+   ],
+   "cast": [
+    "Amol Palekar",
+    "Zarina Wahab"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "TmiV2j0smX8",
+     "by": "Rajshri",
+     "mins": 99,
+     "parts": [
+      "TmiV2j0smX8",
+      "Yf1ZHfr8rY8",
+      "KtXjkbCPEFQ",
+      "31OmD8TjM5g",
+      "qRvt5OaCEHA",
+      "rkoPH2sF2bI",
+      "D2PzvW6Hhgk",
+      "Z0vBD6Otmwo",
+      "opw4FQmIwsA"
+     ]
+    }
+   ]
+  },
+  {
    "id": "hera-pheri-1976",
    "s": "indian",
    "t": "Hera Pheri",
@@ -8671,6 +8792,48 @@
      "id": "AQG7eMBrkG0",
      "by": "Shemaroo",
      "mins": 120
+    }
+   ]
+  },
+  {
+   "id": "agent-vinod-1977",
+   "s": "indian",
+   "t": "Agent Vinod",
+   "a": "",
+   "y": 1977,
+   "l": "Hindi",
+   "c": "India",
+   "d": [
+    "Deepak Bahry"
+   ],
+   "g": [
+    "Action"
+   ],
+   "cast": [
+    "Mahendra Sandhu"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "LVk-JfvoLK8",
+     "by": "Rajshri",
+     "mins": 139,
+     "parts": [
+      "LVk-JfvoLK8",
+      "7L8mR88I8r8",
+      "VgG1q8cLgyo",
+      "M5cp6g2otLc",
+      "noLksQwnV8Q",
+      "Kv-1SlE9OnQ",
+      "UGGd9epNO9c",
+      "nT3wPFG3kzA",
+      "RFjgFg-7jHI",
+      "Hh_-OYb3z5w",
+      "kKANwRu7r1M",
+      "8VJZ_dHbzBs",
+      "6fANyh6jTHg",
+      "y0tu8U-vOck"
+     ]
     }
    ]
   },
@@ -9841,6 +10004,46 @@
    ]
   },
   {
+   "id": "jazbaat-1980",
+   "s": "indian",
+   "t": "Jazbaat",
+   "a": "जज़बात (1980 फ़िल्म)",
+   "y": 1980,
+   "l": "Hindi",
+   "c": "India",
+   "d": [
+    "Suraj Prakash"
+   ],
+   "g": [
+    "Crime",
+    "Drama"
+   ],
+   "cast": [
+    "Raj Babbar"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "gq_Rzd9pdqU",
+     "by": "Rajshri",
+     "mins": 124,
+     "parts": [
+      "gq_Rzd9pdqU",
+      "cGva-8yULTE",
+      "k3H59kRyPD8",
+      "nZ4BGSd59gM",
+      "KeHd2-JfPrU",
+      "jn6ip81Yk_U",
+      "H7fesszIMBs",
+      "VnnoIhKKEeo",
+      "6DxTOqoE5Co",
+      "9W_tmp6Ghws",
+      "_scU9x3ehEo"
+     ]
+    }
+   ]
+  },
+  {
    "id": "judaai-1980",
    "s": "indian",
    "t": "Judaai",
@@ -10891,6 +11094,44 @@
      "id": "zJv9Eo1At38",
      "by": "Shemaroo",
      "mins": 160
+    }
+   ]
+  },
+  {
+   "id": "abodh-1984",
+   "s": "indian",
+   "t": "Abodh",
+   "a": "अबोध",
+   "y": 1984,
+   "l": "Hindi",
+   "c": "India",
+   "d": [
+    "Hiren Nag"
+   ],
+   "g": [],
+   "cast": [
+    "Madhuri Dixit",
+    "Tapas Paul"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "LjpG3j_cVts",
+     "by": "Rajshri",
+     "mins": 132,
+     "parts": [
+      "LjpG3j_cVts",
+      "ABT0kxIEXCs",
+      "C94sDsdWy50",
+      "wZmh8u3mXOY",
+      "Cel9ruNqZ9I",
+      "6X16wjJR8Mw",
+      "IfJ_8j2Mwds",
+      "JcHkqR8wrHQ",
+      "rbevZndmnQk",
+      "MZ0Lad7DRuY",
+      "ouuheOxJMdM"
+     ]
     }
    ]
   },
@@ -13130,6 +13371,51 @@
    ]
   },
   {
+   "id": "maine-pyar-kiya-1989",
+   "s": "indian",
+   "t": "Maine Pyar Kiya",
+   "a": "मैंने प्यार किया",
+   "y": 1989,
+   "l": "Hindi",
+   "c": "India",
+   "d": [
+    "Sooraj R. Barjatya"
+   ],
+   "g": [
+    "Romance"
+   ],
+   "cast": [
+    "Salman Khan",
+    "Bhagyashree Patwardhan",
+    "Laxmikant Berde",
+    "Alok Nath",
+    "Reema Lagoo"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "Q4UXynAcX5s",
+     "by": "Rajshri",
+     "mins": 185,
+     "parts": [
+      "Q4UXynAcX5s",
+      "x0B7aA_WaZs",
+      "4fzqHVSXaKQ",
+      "LTt_YS8FtME",
+      "MqjE8fn9vyk",
+      "fvSGvJsD0sc",
+      "dLpUMe1B7BI",
+      "vxid0SMw6n8",
+      "InV_71K6mdE",
+      "oubmsD5CjnM",
+      "avYLylwWW9s",
+      "RgqQKuKO2Ds",
+      "VuQaNFVJwLI"
+     ]
+    }
+   ]
+  },
+  {
    "id": "majboor-1989",
    "s": "indian",
    "t": "Majboor",
@@ -14706,6 +14992,36 @@
    ]
   },
   {
+   "id": "ivan-the-terrible-part-one-1944",
+   "s": "world",
+   "t": "Ivan the Terrible, Part One",
+   "a": "Иван Грозный",
+   "y": 1944,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Sergei Eisenstein"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ],
+   "cast": [
+    "Nikolay Cherkasov",
+    "Pavel Kadochnikov",
+    "Andrei Abrikosov",
+    "Serafima Birman"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "jJmsV10MTJE",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 95
+    }
+   ]
+  },
+  {
    "id": "kutuzov-1944",
    "s": "world",
    "t": "Kutuzov",
@@ -15243,6 +15559,39 @@
    ]
   },
   {
+   "id": "fall-of-berlin-1950",
+   "s": "world",
+   "t": "Fall of Berlin",
+   "a": "Падение Берлина",
+   "y": 1950,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Mikheil Chiaureli"
+   ],
+   "g": [
+    "War"
+   ],
+   "cast": [
+    "Mikheil Gelovani",
+    "Boris Andreyev",
+    "Andrei Abrikosov",
+    "Nikolai Plotnikov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "AJyi2BJnmO4",
+     "by": "Mosfilm",
+     "mins": 145,
+     "parts": [
+      "AJyi2BJnmO4",
+      "eVp7Nf6pQnI"
+     ]
+    }
+   ]
+  },
+  {
    "id": "secret-mission-1950",
    "s": "world",
    "t": "Secret Mission",
@@ -15357,6 +15706,37 @@
      "id": "b17BOBe1mAk",
      "by": "Киностудия Горького",
      "mins": 96
+    }
+   ]
+  },
+  {
+   "id": "dance-teacher-1952",
+   "s": "world",
+   "t": "Dance Teacher",
+   "a": "Учитель танцев",
+   "y": 1952,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Tatyana Lukashevich"
+   ],
+   "g": [
+    "Romance",
+    "Drama"
+   ],
+   "cast": [
+    "Vladimir Zeldin"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "6YlxlDZSm2k",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 135,
+     "parts": [
+      "6YlxlDZSm2k",
+      "-sbH9_CCU9g"
+     ]
     }
    ]
   },
@@ -16355,6 +16735,42 @@
      "id": "NYaJjLZLZBI",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 85
+    }
+   ]
+  },
+  {
+   "id": "and-quiet-flows-the-don-1957",
+   "s": "world",
+   "t": "And Quiet Flows the Don",
+   "a": "Тихий Дон",
+   "y": 1957,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Sergei Gerasimov"
+   ],
+   "g": [
+    "Romance",
+    "War",
+    "Historical"
+   ],
+   "cast": [
+    "Pyotr Glebov",
+    "Elina Bystritskaya",
+    "Zinaida Kiriyenko",
+    "Danylo Ilchenko"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "po41SOKXnuk",
+     "by": "Киностудия Горького",
+     "mins": 331,
+     "parts": [
+      "po41SOKXnuk",
+      "jJ3gnBMTCzk",
+      "znl5HcKq5vY"
+     ]
     }
    ]
   },
@@ -18560,6 +18976,34 @@
    ]
   },
   {
+   "id": "lyudi-i-zveri-1962",
+   "s": "world",
+   "t": "Lyudi i zveri",
+   "a": "Люди и звери",
+   "y": 1962,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Sergei Gerasimov"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "J2QyvQC85Ro",
+     "by": "Киностудия Горького",
+     "mins": 200,
+     "parts": [
+      "J2QyvQC85Ro",
+      "lTfN0PJN8i0"
+     ]
+    }
+   ]
+  },
+  {
    "id": "mission-1962",
    "s": "world",
    "t": "Mission",
@@ -19250,6 +19694,41 @@
    ]
   },
   {
+   "id": "alive-and-the-dead-1964",
+   "s": "world",
+   "t": "Alive and the Dead",
+   "a": "Живые и мертвые",
+   "y": 1964,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Aleksandr Stolper"
+   ],
+   "g": [
+    "War",
+    "Drama"
+   ],
+   "cast": [
+    "Kirill Lavrov",
+    "Anatoli Papanov",
+    "Viktor Avdyushko",
+    "Yevgeny Samoylov",
+    "Oleg Tabakov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "ZpXhR5Iw6vM",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 198,
+     "parts": [
+      "ZpXhR5Iw6vM",
+      "sE5MDJ9RCUk"
+     ]
+    }
+   ]
+  },
+  {
    "id": "balzaminovs-marriage-1964",
    "s": "world",
    "t": "Balzaminov's Marriage",
@@ -19305,6 +19784,38 @@
      "id": "GtlRLyRSoOE",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 75
+    }
+   ]
+  },
+  {
+   "id": "chairman-1964",
+   "s": "world",
+   "t": "Chairman",
+   "a": "Председатель",
+   "y": 1964,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Aleksei Saltykov"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Mikhail Ulyanov",
+    "Nonna Mordyukova",
+    "Ivan Lapikov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "-9hnmZyDr3Y",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 164,
+     "parts": [
+      "-9hnmZyDr3Y",
+      "jagWOk9jkWE"
+     ]
     }
    ]
   },
@@ -19708,6 +20219,40 @@
      "id": "96_TwIa1kY8",
      "by": "Киностудия Горького",
      "mins": 91
+    }
+   ]
+  },
+  {
+   "id": "i-am-twenty-1965",
+   "s": "world",
+   "t": "I Am Twenty",
+   "a": "Мне двадцать лет",
+   "y": 1965,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Marlen Khutsiev"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Andrei Tarkovsky",
+    "Bella Akhmadulina",
+    "Nikolai Gubenko",
+    "Stanislav Lyubshin",
+    "Valentin Popov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "n5NzS4h4MOg",
+     "by": "Киностудия Горького",
+     "mins": 165,
+     "parts": [
+      "n5NzS4h4MOg",
+      "bFmPXhadAHk"
+     ]
     }
    ]
   },
@@ -20395,6 +20940,40 @@
    ]
   },
   {
+   "id": "no-password-necessary-1967",
+   "s": "world",
+   "t": "No Password Necessary",
+   "a": "Пароль не нужен",
+   "y": 1967,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Boris Grigoryev"
+   ],
+   "g": [
+    "Action",
+    "Historical"
+   ],
+   "cast": [
+    "Nikolai Gubenko",
+    "Rodion Nakhapetov",
+    "Anastasia Voznesenskaya",
+    "Mikhail Zimin"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "nzvqx0Qr3KY",
+     "by": "Киностудия Горького",
+     "mins": 153,
+     "parts": [
+      "nzvqx0Qr3KY",
+      "0rk-W_Sigdo"
+     ]
+    }
+   ]
+  },
+  {
    "id": "older-sister-1967",
    "s": "world",
    "t": "Older sister",
@@ -20717,6 +21296,40 @@
    ]
   },
   {
+   "id": "little-golden-calf-1968",
+   "s": "world",
+   "t": "Little Golden Calf",
+   "a": "Золотой теленок",
+   "y": 1968,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Mikhail Schweitzer"
+   ],
+   "g": [
+    "Comedy"
+   ],
+   "cast": [
+    "Sergei Yursky",
+    "Leonid Kuravlyov",
+    "Zinovy Gerdt",
+    "Yevgeniy Yevstigneyev",
+    "Svetlana Starikova"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "jchmRazCbJM",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 172,
+     "parts": [
+      "jchmRazCbJM",
+      "pyqD23zX0YI"
+     ]
+    }
+   ]
+  },
+  {
    "id": "new-adventures-of-the-elusive-avengers-1968",
    "s": "world",
    "t": "New Adventures of the Elusive Avengers",
@@ -20773,6 +21386,40 @@
      "id": "voGfZ7T8jQg",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 96
+    }
+   ]
+  },
+  {
+   "id": "secret-agents-blunder-1968",
+   "s": "world",
+   "t": "Secret Agent's Blunder",
+   "a": "Ошибка резидента",
+   "y": 1968,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Venyamin Davydovich Dorman"
+   ],
+   "g": [
+    "Thriller"
+   ],
+   "cast": [
+    "Georgiy Zhzhonov",
+    "Mikhail Nozhkin",
+    "Oleg Zhakov",
+    "Yefim Kopelyan",
+    "Irina Miroshnichenko"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "dzzjGsA3U70",
+     "by": "Киностудия Горького",
+     "mins": 134,
+     "parts": [
+      "dzzjGsA3U70",
+      "Yg6dlIhIDo0"
+     ]
     }
    ]
   },
@@ -21523,6 +22170,69 @@
    ]
   },
   {
+   "id": "by-the-lake-1970",
+   "s": "world",
+   "t": "By the Lake",
+   "a": "У озера",
+   "y": 1970,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Sergei Gerasimov"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Oleg Zhakov",
+    "Vasily Shukshin",
+    "Natalya Belokhvostikova"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "68zjhqvR5lQ",
+     "by": "Киностудия Горького",
+     "mins": 173,
+     "parts": [
+      "68zjhqvR5lQ",
+      "yQLtriCySyc"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crime-and-punishment-1970",
+   "s": "world",
+   "t": "Crime and Punishment",
+   "a": "Преступление и наказание",
+   "y": 1970,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Lev Kulidzhanov"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Georgy Taratorkin",
+    "Innokenty Smoktunovsky"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "gntg3oEx5ks",
+     "by": "Киностудия Горького",
+     "mins": 209,
+     "parts": [
+      "gntg3oEx5ks",
+      "hZ_sTBm0Oi0"
+     ]
+    }
+   ]
+  },
+  {
    "id": "family-happiness-1970",
    "s": "world",
    "t": "Family Happiness",
@@ -21607,6 +22317,70 @@
      "id": "KxJeEctWvxc",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 85
+    }
+   ]
+  },
+  {
+   "id": "secret-agents-destiny-1970",
+   "s": "world",
+   "t": "Secret Agent's Destiny",
+   "a": "Судьба резидента",
+   "y": 1970,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Venyamin Davydovich Dorman"
+   ],
+   "g": [
+    "Mystery",
+    "Adventure"
+   ],
+   "cast": [],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "BRQn60a-ZtU",
+     "by": "Киностудия Горького",
+     "mins": 148,
+     "parts": [
+      "BRQn60a-ZtU",
+      "4sr3TpEyF5M"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tchaikovsky-1970",
+   "s": "world",
+   "t": "Tchaikovsky",
+   "a": "Чайковский",
+   "y": 1970,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Igor Talankin"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ],
+   "cast": [
+    "Innokenty Smoktunovsky",
+    "Kirill Lavrov",
+    "Maya Plisetskaya",
+    "Bruno Freindlich",
+    "Yevgeny Leonov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "dyp4p9dfHbg",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 147,
+     "parts": [
+      "dyp4p9dfHbg",
+      "DtCtiBPl1Ws"
+     ]
     }
    ]
   },
@@ -21873,6 +22647,79 @@
    ]
   },
   {
+   "id": "crown-of-the-russian-empire-or-once-again-the-elusive-avengers-1971",
+   "s": "world",
+   "t": "Crown of the Russian Empire, or Once Again the Elusive Avengers",
+   "a": "Корона Российской империи",
+   "y": 1971,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Edmond Keosayan"
+   ],
+   "g": [
+    "Adventure",
+    "Action",
+    "Historical"
+   ],
+   "cast": [
+    "Mikhail Metyolkin",
+    "Armen Dzhigarkhanyan",
+    "Rolan Bykov",
+    "Lyudmila Gurchenko",
+    "Edmond Keosayan"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "68TA9nv0jbY",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 135,
+     "parts": [
+      "68TA9nv0jbY",
+      "BhW4eunrxOU"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "flight-1971",
+   "s": "world",
+   "t": "Flight",
+   "a": "Бег",
+   "y": 1971,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Aleksandr Alov",
+    "Vladimir Naumov"
+   ],
+   "g": [
+    "War",
+    "Historical",
+    "Drama"
+   ],
+   "cast": [
+    "Ludmila Savelyeva",
+    "Aleksey Batalov",
+    "Mikhail Ulyanov",
+    "Vladislav Dvorzhetsky",
+    "Yevgeniy Yevstigneyev"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "2pQ2INIj0d8",
+     "by": "Mosfilm",
+     "mins": 193,
+     "parts": [
+      "2pQ2INIj0d8",
+      "N-MZgg3kqik"
+     ]
+    }
+   ]
+  },
+  {
    "id": "gentleman-of-fortune-1971",
    "s": "world",
    "t": "Gentleman of Fortune",
@@ -22118,6 +22965,39 @@
    ]
   },
   {
+   "id": "boy-posle-pobedy-1972",
+   "s": "world",
+   "t": "Boy posle pobedy",
+   "a": "Бой после победы",
+   "y": 1972,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Villen Azarov"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Mikhail Volkov",
+    "Yevgeny Kuznetsov",
+    "Alexey Eybozhenko",
+    "Grigoriy Gay"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "Q_xYvRxqbGs",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 164,
+     "parts": [
+      "Q_xYvRxqbGs",
+      "vGbFUUs7MIM"
+     ]
+    }
+   ]
+  },
+  {
    "id": "grandads-robbers-1972",
    "s": "world",
    "t": "Grandads-Robbers",
@@ -22238,6 +23118,74 @@
    ]
   },
   {
+   "id": "property-of-the-republic-1972",
+   "s": "world",
+   "t": "Property of the Republic",
+   "a": "Достояние республики",
+   "y": 1972,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Vladimir Bychkov"
+   ],
+   "g": [
+    "Crime",
+    "Adventure",
+    "Action"
+   ],
+   "cast": [
+    "Oleg Tabakov",
+    "Andrei Mironov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "Da3yNpq_v0w",
+     "by": "Киностудия Горького",
+     "mins": 131,
+     "parts": [
+      "Da3yNpq_v0w",
+      "3d_t7u_XKSY"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ruslan-and-ludmila-1972",
+   "s": "world",
+   "t": "Ruslan and Ludmila",
+   "a": "Руслан и Людмила",
+   "y": 1972,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Aleksandr Ptushko"
+   ],
+   "g": [
+    "Romance",
+    "Fantasy",
+    "Family"
+   ],
+   "cast": [
+    "Andrei Abrikosov",
+    "Sergey Martinson",
+    "Valeri Kozinets",
+    "Natalya Petrova"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "hXz4dKq0Cps",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 146,
+     "parts": [
+      "hXz4dKq0Cps",
+      "Cok-rzxbdiM"
+     ]
+    }
+   ]
+  },
+  {
    "id": "solaris-1972",
    "s": "world",
    "t": "Solaris",
@@ -22265,6 +23213,46 @@
      "id": "Z8ZhQPaw4rE",
      "by": "Mosfilm",
      "mins": 167
+    }
+   ]
+  },
+  {
+   "id": "teni-ischezayut-v-polden-1972",
+   "s": "world",
+   "t": "Teni ischezayut v polden",
+   "a": "Тени исчезают в полдень (телесериал)",
+   "y": 1972,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Valery Uskov",
+    "Vladimir Krasnopolskiy"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Pyotr Velyaminov",
+    "Nina Ruslanova",
+    "Sergei Yakovlev",
+    "Alexandra Zavyalov",
+    "Boris Novikov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "FMJeDR6O5Lo",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 498,
+     "parts": [
+      "FMJeDR6O5Lo",
+      "03kj8o3hgb4",
+      "2moKKEt_eYk",
+      "jrR_a84UBfc",
+      "0bETdqzi8_o",
+      "lqjEar1Aagk",
+      "HaMmK_hcN2c"
+     ]
     }
    ]
   },
@@ -22325,6 +23313,44 @@
      "id": "kvWVaH7Ibq0",
      "by": "Mosfilm",
      "mins": 164
+    }
+   ]
+  },
+  {
+   "id": "q4091855-1972",
+   "s": "world",
+   "t": "Большая перемена",
+   "a": "Большая перемена (телесериал)",
+   "y": 1972,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Aleksey Korenev"
+   ],
+   "g": [
+    "Comedy",
+    "Romance",
+    "Drama"
+   ],
+   "cast": [
+    "Mikhail Kononov",
+    "Yevgeny Leonov",
+    "Rolan Bykov",
+    "Aleksandr Zbruyev",
+    "Svetlana Kryuchkova"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "I8jxR2asjRQ",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 258,
+     "parts": [
+      "I8jxR2asjRQ",
+      "beS3GuqkVbc",
+      "RCJZH0dQ42c",
+      "VJfnhcOSoBU"
+     ]
     }
    ]
   },
@@ -22472,6 +23498,39 @@
      "id": "38t23FyL5sI",
      "by": "Киностудия Горького",
      "mins": 91
+    }
+   ]
+  },
+  {
+   "id": "love-of-mankind-1973",
+   "s": "world",
+   "t": "Love of Mankind",
+   "a": "Любить человека",
+   "y": 1973,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Sergei Gerasimov"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Anatoly Solonitsyn",
+    "Lyubov Virolaynen",
+    "Tamara Makarova",
+    "Zhanna Bolotova"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "nqGS0W2o-Hk",
+     "by": "Киностудия Горького",
+     "mins": 158,
+     "parts": [
+      "nqGS0W2o-Hk",
+      "N_CAyEwnj5Q"
+     ]
     }
    ]
   },
@@ -22986,6 +24045,40 @@
    ]
   },
   {
+   "id": "choice-of-purpose-1975",
+   "s": "world",
+   "t": "Choice of Purpose",
+   "a": "Выбор цели",
+   "y": 1975,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Igor Talankin"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ],
+   "cast": [
+    "Sergei Bondarchuk",
+    "Sergei Yursky",
+    "Nikolay Volkov",
+    "Irina Skobtseva"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "nlELmjekIq8",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 139,
+     "parts": [
+      "nlELmjekIq8",
+      "goavuJufU9Y"
+     ]
+    }
+   ]
+  },
+  {
    "id": "dersu-uzala-1975",
    "s": "world",
    "t": "Dersu Uzala",
@@ -23230,6 +24323,42 @@
    ]
   },
   {
+   "id": "the-lost-expedition-1975",
+   "s": "world",
+   "t": "The Lost Expedition",
+   "a": "Пропавшая экспедиция",
+   "y": 1975,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Venyamin Davydovich Dorman"
+   ],
+   "g": [
+    "Mystery",
+    "Adventure",
+    "Drama"
+   ],
+   "cast": [
+    "Yevgeniya Simonova",
+    "Nikolai Grinko",
+    "Vakhtang Kikabidze",
+    "Sergey Shevkunenko",
+    "Alexander Kaidanovsky"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "tf-dQJmbLKc",
+     "by": "Киностудия Горького",
+     "mins": 124,
+     "parts": [
+      "tf-dQJmbLKc",
+      "3hwXHPSZqbQ"
+     ]
+    }
+   ]
+  },
+  {
    "id": "they-fought-for-their-country-1975",
    "s": "world",
    "t": "They Fought for Their Country",
@@ -23336,6 +24465,75 @@
    ]
   },
   {
+   "id": "circus-in-the-circus-1976",
+   "s": "world",
+   "t": "Circus in the Circus",
+   "a": "Соло для слона с оркестром",
+   "y": 1976,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Oldřich Lipský"
+   ],
+   "g": [
+    "Comedy",
+    "Family"
+   ],
+   "cast": [
+    "Yevgeny Leonov",
+    "Jiří Sovák",
+    "Iva Janžurová",
+    "Natalya Varley",
+    "Leonid Kuravlyov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "mZL3eexUziI",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 127,
+     "parts": [
+      "mZL3eexUziI",
+      "Fl5yN6EpJpc"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "irony-of-fate-1976",
+   "s": "world",
+   "t": "Irony of Fate",
+   "a": "Ирония судьбы",
+   "y": 1976,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Eldar Ryazanov"
+   ],
+   "g": [
+    "Comedy",
+    "Romance"
+   ],
+   "cast": [
+    "Andrey Myagkov",
+    "Barbara Brylska",
+    "Alexander Belyavsky",
+    "Georgi Burkov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "L5GnqepBJkE",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 185,
+     "parts": [
+      "L5GnqepBJkE",
+      "fhRz-UQvhkQ"
+     ]
+    }
+   ]
+  },
+  {
    "id": "linlased-1976",
    "s": "world",
    "t": "Linlased",
@@ -23398,6 +24596,36 @@
    ]
   },
   {
+   "id": "my-business-1976",
+   "s": "world",
+   "t": "My Business",
+   "a": "Моё дело",
+   "y": 1976,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Leonid Maryagin"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Boris Andreyev"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "Wu9cVmN-ZxM",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 133,
+     "parts": [
+      "Wu9cVmN-ZxM",
+      "MSQTc99hdwc"
+     ]
+    }
+   ]
+  },
+  {
    "id": "queen-of-the-gypsies-1976",
    "s": "world",
    "t": "Queen of the Gypsies",
@@ -23425,6 +24653,42 @@
      "id": "udkz19ISbZs",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 96
+    }
+   ]
+  },
+  {
+   "id": "red-and-black-1976",
+   "s": "world",
+   "t": "Red and Black",
+   "a": "Красное и чёрное",
+   "y": 1976,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Sergei Gerasimov"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Nikolay Yeryomenko Jr.",
+    "Natalya Belokhvostikova",
+    "Leonid Markov",
+    "Natalya Bondarchuk",
+    "Gleb Strizhenov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "yAS3oTbZmTk",
+     "by": "Киностудия Горького",
+     "mins": 293,
+     "parts": [
+      "yAS3oTbZmTk",
+      "P7P1-xQcLUs",
+      "LvXtCnJpNTw",
+      "g6jFuvugivg"
+     ]
     }
    ]
   },
@@ -23548,6 +24812,42 @@
      "id": "qSADcqFDSlE",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 96
+    }
+   ]
+  },
+  {
+   "id": "two-captains-1976",
+   "s": "world",
+   "t": "Two Captains",
+   "a": "Два капитана",
+   "y": 1976,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Yevgeni Karelov"
+   ],
+   "g": [
+    "Adventure"
+   ],
+   "cast": [
+    "Boris Tokarev",
+    "Yelena Prudnikova",
+    "Yuri Bogatyryov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "G3DqPyUZROc",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 434,
+     "parts": [
+      "G3DqPyUZROc",
+      "3Iad-2pcq9s",
+      "fnnZPNQnnlY",
+      "e3VO0Cma6ww",
+      "RVlMINy_4z8",
+      "DvOIthhV6U0"
+     ]
     }
    ]
   },
@@ -23928,6 +25228,40 @@
    ]
   },
   {
+   "id": "po-semeynym-obstoyatelstvam-1977",
+   "s": "world",
+   "t": "Po semeynym obstoyatelstvam",
+   "a": "По семейным обстоятельствам",
+   "y": 1977,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Aleksey Korenev"
+   ],
+   "g": [
+    "Comedy"
+   ],
+   "cast": [
+    "Galina Polskikh",
+    "Evgeniy Steblov",
+    "Marina Dyuzheva",
+    "Rolan Bykov",
+    "Anatoli Papanov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "CLiVVm7uaeA",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 129,
+     "parts": [
+      "CLiVVm7uaeA",
+      "b3lQ6xZE93k"
+     ]
+    }
+   ]
+  },
+  {
    "id": "practical-joke-1977",
    "s": "world",
    "t": "Practical Joke",
@@ -24188,6 +25522,37 @@
      "id": "Cu-j_2UMIl8",
      "by": "Киностудия Горького",
      "mins": 89
+    }
+   ]
+  },
+  {
+   "id": "white-bim-black-ear-1977",
+   "s": "world",
+   "t": "White Bim Black Ear",
+   "a": "Белый Бим Чёрное ухо",
+   "y": 1977,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Stanislav Rostotsky"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Vyacheslav Tikhonov",
+    "Valentina Vladimirova"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "tItkWn6bLlg",
+     "by": "Киностудия Горького",
+     "mins": 173,
+     "parts": [
+      "tItkWn6bLlg",
+      "Miu3QyB6KPg"
+     ]
     }
    ]
   },
@@ -24916,6 +26281,40 @@
    ]
   },
   {
+   "id": "detective-1979",
+   "s": "world",
+   "t": "Detective",
+   "a": "Сыщик",
+   "y": 1979,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Vladimir Fokin"
+   ],
+   "g": [
+    "Crime",
+    "Action"
+   ],
+   "cast": [
+    "Andrey Tashkov",
+    "Boris Khimichev",
+    "Igor Kvasha",
+    "Nikolai Skorobogatov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "fsTNYuSnmWs",
+     "by": "Киностудия Горького",
+     "mins": 129,
+     "parts": [
+      "fsTNYuSnmWs",
+      "sI803CnM8Sk"
+     ]
+    }
+   ]
+  },
+  {
    "id": "fuss-of-the-fusses-1979",
    "s": "world",
    "t": "Fuss of the Fusses",
@@ -24976,6 +26375,42 @@
    ]
   },
   {
+   "id": "obyknovennoye-chudo-1979",
+   "s": "world",
+   "t": "Obyknovennoye chudo",
+   "a": "Обыкновенное чудо",
+   "y": 1979,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Mark Zakharov"
+   ],
+   "g": [
+    "Musical",
+    "Comedy",
+    "Satire"
+   ],
+   "cast": [
+    "Aleksandr Abdulov",
+    "Oleg Yankovsky",
+    "Yevgeny Leonov",
+    "Yevgeniya Simonova",
+    "Andrei Mironov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "gZiKrWSzNBo",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 138,
+     "parts": [
+      "gZiKrWSzNBo",
+      "mzpJq23cuKc"
+     ]
+    }
+   ]
+  },
+  {
    "id": "old-fashioned-comedy-1979",
    "s": "world",
    "t": "Old Fashioned Comedy",
@@ -25000,6 +26435,41 @@
      "id": "WgPmih-9C-Q",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 89
+    }
+   ]
+  },
+  {
+   "id": "pugachev-1979",
+   "s": "world",
+   "t": "Pugachev",
+   "a": "Емельян Пугачёв",
+   "y": 1979,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Aleksei Saltykov"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ],
+   "cast": [
+    "Yevgeny Matveyev",
+    "Vija Artmane",
+    "Tamara Syomina",
+    "Olga Prokhorova",
+    "Pyotr Glebov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "42gmfPY7xWE",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 154,
+     "parts": [
+      "42gmfPY7xWE",
+      "OVfvTV7kGLk"
+     ]
     }
    ]
   },
@@ -25502,6 +26972,42 @@
    ]
   },
   {
+   "id": "oblomov-1980",
+   "s": "world",
+   "t": "Oblomov",
+   "a": "Несколько дней из жизни И.И.Обломова",
+   "y": 1980,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Nikita Mikhalkov"
+   ],
+   "g": [
+    "Comedy",
+    "Romance",
+    "Historical"
+   ],
+   "cast": [
+    "Oleg Tabakov",
+    "Yelena Solovey",
+    "Yuri Bogatyryov",
+    "Andrey Popov",
+    "Avangard Leontiev"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "Q1zIasC2Og8",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 135,
+     "parts": [
+      "Q1zIasC2Og8",
+      "POcpuPgjc9g"
+     ]
+    }
+   ]
+  },
+  {
    "id": "once-upon-a-time-twenty-years-later-1980",
    "s": "world",
    "t": "Once Upon a Time Twenty Years Later",
@@ -25557,6 +27063,76 @@
      "id": "LTht9XAB7b4",
      "by": "Киностудия Горького",
      "mins": 80
+    }
+   ]
+  },
+  {
+   "id": "v-nachale-slavnykh-del-1980",
+   "s": "world",
+   "t": "V nachale slavnykh del",
+   "a": "В начале славных дел",
+   "y": 1980,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Sergei Gerasimov"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ],
+   "cast": [
+    "Tamara Makarova",
+    "Natalya Bondarchuk",
+    "Boris Khmelnitsky",
+    "Ivan Lapikov",
+    "Alexander Belyavsky"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "28T1KofXFRc",
+     "by": "Киностудия Горького",
+     "mins": 130,
+     "parts": [
+      "28T1KofXFRc",
+      "M0pwse--3uc"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "youth-of-peter-the-great-1980",
+   "s": "world",
+   "t": "Youth of Peter the Great",
+   "a": "Юность Петра",
+   "y": 1980,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Sergei Gerasimov"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ],
+   "cast": [
+    "Tamara Makarova",
+    "Natalya Bondarchuk",
+    "Boris Khmelnitsky",
+    "Ivan Lapikov",
+    "Alexander Belyavsky"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "Dh-NJU13im8",
+     "by": "Киностудия Горького",
+     "mins": 134,
+     "parts": [
+      "Dh-NJU13im8",
+      "Deoutei-Um8"
+     ]
     }
    ]
   },
@@ -25735,6 +27311,41 @@
    ]
   },
   {
+   "id": "humanoid-woman-1981",
+   "s": "world",
+   "t": "Humanoid Woman",
+   "a": "Через тернии к звёздам",
+   "y": 1981,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Richard Viktorov"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Adventure"
+   ],
+   "cast": [
+    "Alexander Lazarev",
+    "Vadim Ledogorov",
+    "Igor Ledogorov",
+    "Yelena Metyolkina",
+    "Yelena Fadeyeva"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "EDvFUXXsrDg",
+     "by": "Киностудия Горького",
+     "mins": 146,
+     "parts": [
+      "EDvFUXXsrDg",
+      "eXIqvAX8Gr8"
+     ]
+    }
+   ]
+  },
+  {
    "id": "lenin-in-paris-1981",
    "s": "world",
    "t": "Lenin in Paris",
@@ -25906,6 +27517,43 @@
    ]
   },
   {
+   "id": "squadron-of-flying-hussars-1981",
+   "s": "world",
+   "t": "Squadron of Flying Hussars",
+   "a": "Эскадрон гусар летучих",
+   "y": 1981,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Stanislav Rostotsky",
+    "Nikita Khubov"
+   ],
+   "g": [
+    "War",
+    "Adventure",
+    "Historical"
+   ],
+   "cast": [
+    "Andrei Rostotsky",
+    "Nikolay Yeryomenko Jr.",
+    "Igor Kashintsev",
+    "Ivan I. Krasko",
+    "Yevgeni Lebedev"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "rjeopto7LNw",
+     "by": "Киностудия Горького",
+     "mins": 158,
+     "parts": [
+      "rjeopto7LNw",
+      "QvVikiCPVAw"
+     ]
+    }
+   ]
+  },
+  {
    "id": "starfall-1981",
    "s": "world",
    "t": "Starfall",
@@ -25966,6 +27614,42 @@
      "id": "XC5BA9gL7So",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 151
+    }
+   ]
+  },
+  {
+   "id": "through-gobi-and-khingan-1981",
+   "s": "world",
+   "t": "Through Gobi and Khingan",
+   "a": "Через Гоби и Хинган",
+   "y": 1981,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Vasili Ordynsky",
+    "Badrahin Sumhu"
+   ],
+   "g": [
+    "War",
+    "Drama"
+   ],
+   "cast": [
+    "Andro Kobaladze",
+    "Vladimir Ivashov",
+    "Leonid Nevedomsky",
+    "Andrey Leonidovich Martynov",
+    "Oleg Stefan"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "e2hq7IrF_LA",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 157,
+     "parts": [
+      "e2hq7IrF_LA",
+      "kY_WsL53QE8"
+     ]
     }
    ]
   },
@@ -26051,6 +27735,77 @@
      "id": "Sisso7zDS5g",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 94
+    }
+   ]
+  },
+  {
+   "id": "young-russia-1981",
+   "s": "world",
+   "t": "Young Russia",
+   "a": "Россия молодая",
+   "y": 1981,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Ilya Gurin"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ],
+   "cast": [
+    "Boris Nevzorov",
+    "Aleksandr Fatyushin",
+    "Stepan Starchikov",
+    "Aleksandra Yakovleva"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "78_OiEXjpaI",
+     "by": "Киностудия Горького",
+     "mins": 615,
+     "parts": [
+      "78_OiEXjpaI",
+      "L_H4H8jGRQE",
+      "ITTk9SzJU4w",
+      "0264VP1aGz0",
+      "4TuMWDyKzFA",
+      "e71JWxSrfAk",
+      "SAQhWc5O6oM",
+      "It28yTFILSI",
+      "LKAe3TPIwhE"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q4101052-1981",
+   "s": "world",
+   "t": "Было у отца три сына",
+   "a": "",
+   "y": 1981,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Gennady Ivanov"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Oleg Yefremov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "eotQooNf2Ds",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 130,
+     "parts": [
+      "eotQooNf2Ds",
+      "GHOpsvoak7g"
+     ]
     }
    ]
   },
@@ -26325,6 +28080,36 @@
      "id": "G1MP5OytKUM",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 96
+    }
+   ]
+  },
+  {
+   "id": "resident-return-1982",
+   "s": "world",
+   "t": "Resident Return",
+   "a": "Возвращение резидента",
+   "y": 1982,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Venyamin Davydovich Dorman"
+   ],
+   "g": [
+    "Thriller"
+   ],
+   "cast": [
+    "Georgiy Zhzhonov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "bUqhZRgOhMQ",
+     "by": "Киностудия Горького",
+     "mins": 129,
+     "parts": [
+      "bUqhZRgOhMQ",
+      "hdCOAGSG1ts"
+     ]
     }
    ]
   },
@@ -26692,6 +28477,38 @@
    ]
   },
   {
+   "id": "start-liquidation-1983",
+   "s": "world",
+   "t": "Start Liquidation",
+   "a": "Приступить к ликвидации",
+   "y": 1983,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Boris Grigoryev"
+   ],
+   "g": [
+    "Crime",
+    "War",
+    "Action"
+   ],
+   "cast": [
+    "Oleg Strizhenov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "ATyf9HibGEk",
+     "by": "Киностудия Горького",
+     "mins": 127,
+     "parts": [
+      "ATyf9HibGEk",
+      "FY-XguezaVU"
+     ]
+    }
+   ]
+  },
+  {
    "id": "station-for-two-1983",
    "s": "world",
    "t": "Station for Two",
@@ -26807,6 +28624,36 @@
      "id": "6zjmzk_AKm4",
      "by": "Киностудия Горького",
      "mins": 82
+    }
+   ]
+  },
+  {
+   "id": "vassa-1983",
+   "s": "world",
+   "t": "Vassa",
+   "a": "Васса",
+   "y": 1983,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Gleb Panfilov"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Inna Churikova"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "PHm7rOOdVJ0",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 132,
+     "parts": [
+      "PHm7rOOdVJ0",
+      "-_-p2x00DYY"
+     ]
     }
    ]
   },
@@ -27092,6 +28939,41 @@
    ]
   },
   {
+   "id": "leo-tolstoy-1984",
+   "s": "world",
+   "t": "Leo Tolstoy",
+   "a": "Лев Толстой",
+   "y": 1984,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Sergei Gerasimov"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ],
+   "cast": [
+    "Sergei Gerasimov",
+    "Tamara Makarova",
+    "Bořivoj Navrátil",
+    "Aleksei Petrenko",
+    "Mária Kráľovičová"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "Gp-YpR62AkQ",
+     "by": "Киностудия Горького",
+     "mins": 160,
+     "parts": [
+      "Gp-YpR62AkQ",
+      "tqdshVnfn0s"
+     ]
+    }
+   ]
+  },
+  {
    "id": "love-and-doves-1984",
    "s": "world",
    "t": "Love and Doves",
@@ -27183,6 +29065,74 @@
    ]
   },
   {
+   "id": "pippi-longstocking-1984",
+   "s": "world",
+   "t": "Pippi Longstocking",
+   "a": "Пеппи Длинный чулок",
+   "y": 1984,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Margarita Mikaelyan"
+   ],
+   "g": [
+    "Musical",
+    "Comedy",
+    "Fantasy"
+   ],
+   "cast": [
+    "Mikhail Boyarsky",
+    "Fyodor Stukov",
+    "Tatyana Vasileva"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "2vmftGxEPTQ",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 127,
+     "parts": [
+      "2vmftGxEPTQ",
+      "mYhh__Sj4xw"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scarecrow-1984",
+   "s": "world",
+   "t": "Scarecrow",
+   "a": "Чучело",
+   "y": 1984,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Rolan Bykov"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Kristina Orbakaitė",
+    "Yuri Nikulin",
+    "Dmitry Yegorov",
+    "Elena Sanayeva",
+    "Svetlana Kryuchkova"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "eHExiCW1mLc",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 121,
+     "parts": [
+      "eHExiCW1mLc",
+      "IQyAzhvskg0"
+     ]
+    }
+   ]
+  },
+  {
    "id": "success-1984",
    "s": "world",
    "t": "Success",
@@ -27207,6 +29157,34 @@
      "id": "DJUrIbdtHu8",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 88
+    }
+   ]
+  },
+  {
+   "id": "the-victory-1984",
+   "s": "world",
+   "t": "The Victory",
+   "a": "Победа",
+   "y": 1984,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Yevgeny Matveyev"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "Mdpmq54lULg",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 151,
+     "parts": [
+      "Mdpmq54lULg",
+      "XaRpTXfJb6o"
+     ]
     }
    ]
   },
@@ -27345,6 +29323,40 @@
    ]
   },
   {
+   "id": "bagrationi-1985",
+   "s": "world",
+   "t": "Bagrationi",
+   "a": "Багратион",
+   "y": 1985,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Giuli Chokhonelidze"
+   ],
+   "g": [
+    "Historical"
+   ],
+   "cast": [
+    "Giuli Chokhonelidze",
+    "Yury Katin-Yartsev",
+    "Mikhail Kuznetsov",
+    "Uldis Lieldidžs",
+    "Janri Lolashvili"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "sDTkRvvzYyk",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 157,
+     "parts": [
+      "sDTkRvvzYyk",
+      "O9R559Vlgrg"
+     ]
+    }
+   ]
+  },
+  {
    "id": "bambis-childhood-1985",
    "s": "world",
    "t": "Bambi's Childhood",
@@ -27372,6 +29384,42 @@
      "id": "Ss7Ie2ijn8Y",
      "by": "Киностудия Горького",
      "mins": 76
+    }
+   ]
+  },
+  {
+   "id": "batalyony-prosyat-ognya-1985",
+   "s": "world",
+   "t": "Batalyony prosyat ognya",
+   "a": "Батальоны просят огня",
+   "y": 1985,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Vladimir Chebotaryov",
+    "Aleksandr Bogolyubov"
+   ],
+   "g": [
+    "War"
+   ],
+   "cast": [
+    "Aleksandr Zbruyev",
+    "Oleg Yefremov",
+    "Nikolai Karachentsov",
+    "Igor Sklyar"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "UsmBFet9SQU",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 269,
+     "parts": [
+      "UsmBFet9SQU",
+      "QeHEIxpHuiY",
+      "46PS3Lb9C00",
+      "BE2eWF25HtY"
+     ]
     }
    ]
   },
@@ -27817,6 +29865,40 @@
    ]
   },
   {
+   "id": "berega-v-tumane-1986",
+   "s": "world",
+   "t": "Berega v tumane",
+   "a": "Берега в тумане",
+   "y": 1986,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Yuli Karasik"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ],
+   "cast": [
+    "Anatoly Kuznetsov",
+    "Boris Lukanov",
+    "Irina Kupchenko",
+    "Tanya Dimitrova"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "U7gRg_M-_M4",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 137,
+     "parts": [
+      "U7gRg_M-_M4",
+      "_ajzzEDxqio"
+     ]
+    }
+   ]
+  },
+  {
    "id": "boris-godunov-1986",
    "s": "world",
    "t": "Boris Godunov",
@@ -27845,6 +29927,40 @@
      "id": "41B6WMx8zKQ",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 139
+    }
+   ]
+  },
+  {
+   "id": "chicherin-1986",
+   "s": "world",
+   "t": "Chicherin",
+   "a": "Чичерин",
+   "y": 1986,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Aleksandr Zarkhi"
+   ],
+   "g": [
+    "Historical"
+   ],
+   "cast": [
+    "Leonid Filatov",
+    "Leonid Bronevoy",
+    "Oleg Golubitsky",
+    "Ruben Simonov",
+    "Alexander Grave"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "Roy7lzULaMw",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 131,
+     "parts": [
+      "Roy7lzULaMw",
+      "HH11DPc_oc4"
+     ]
     }
    ]
   },
@@ -27968,6 +30084,36 @@
    ]
   },
   {
+   "id": "konets-operatsii-rezident-1986",
+   "s": "world",
+   "t": "Konets operatsii Rezident",
+   "a": "Конец операции «Резидент»",
+   "y": 1986,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Venyamin Davydovich Dorman"
+   ],
+   "g": [
+    "Mystery"
+   ],
+   "cast": [
+    "Georgiy Zhzhonov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "fZeVzBusW80",
+     "by": "Киностудия Горького",
+     "mins": 137,
+     "parts": [
+      "fZeVzBusW80",
+      "AzpWPVJV7BI"
+     ]
+    }
+   ]
+  },
+  {
    "id": "koordinaty-smerti-1986",
    "s": "world",
    "t": "Koordinaty smerti",
@@ -28022,6 +30168,40 @@
    ]
   },
   {
+   "id": "podroze-pana-kleksa-1986",
+   "s": "world",
+   "t": "Podróze pana Kleksa",
+   "a": "Путешествие пана Кляксы",
+   "y": 1986,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Krzysztof Gradowski"
+   ],
+   "g": [
+    "Sci-Fi"
+   ],
+   "cast": [
+    "Piotr Fronczewski",
+    "Małgorzata Ostrowska",
+    "Henryk Bista",
+    "Zbigniew Buczkowski",
+    "Jerzy Bończak"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "0V179cj89Fs",
+     "by": "Киностудия Горького",
+     "mins": 158,
+     "parts": [
+      "0V179cj89Fs",
+      "_ojcH4crIXo"
+     ]
+    }
+   ]
+  },
+  {
    "id": "the-detached-mission-1986",
    "s": "world",
    "t": "The Detached Mission",
@@ -28051,6 +30231,41 @@
    ]
   },
   {
+   "id": "q4401139-1986",
+   "s": "world",
+   "t": "Русь изначальная",
+   "a": "",
+   "y": 1986,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Gennady Vasilyev"
+   ],
+   "g": [
+    "War",
+    "Historical"
+   ],
+   "cast": [
+    "Boris Nevzorov",
+    "Vladimir Antonik",
+    "Vladimir Yepiskoposyan",
+    "Mukhtarbek Kantemirov",
+    "Kapitolina Illenko"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "nj42nv-8rIg",
+     "by": "Киностудия Горького",
+     "mins": 139,
+     "parts": [
+      "nj42nv-8rIg",
+      "Qzb1p7sIGi8"
+     ]
+    }
+   ]
+  },
+  {
    "id": "q4500169-1986",
    "s": "world",
    "t": "Хорошо сидим!",
@@ -28074,6 +30289,40 @@
      "id": "vycOc8J6avQ",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 71
+    }
+   ]
+  },
+  {
+   "id": "end-of-eternity-1987",
+   "s": "world",
+   "t": "End of Eternity",
+   "a": "Конец Вечности",
+   "y": 1987,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Andrey Yermash"
+   ],
+   "g": [
+    "Sci-Fi"
+   ],
+   "cast": [
+    "Oleg Vavilov",
+    "Vera Sotnikova",
+    "Georgiy Zhzhonov",
+    "Sergei Yursky",
+    "Boris Klyuyev"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "MrqwFgrluyY",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 130,
+     "parts": [
+      "MrqwFgrluyY",
+      "lq6YiDYarR4"
+     ]
     }
    ]
   },
@@ -28132,6 +30381,38 @@
      "id": "SgUfjmPonSo",
      "by": "Киностудия Горького",
      "mins": 78
+    }
+   ]
+  },
+  {
+   "id": "kreutzer-sonata-1987",
+   "s": "world",
+   "t": "Kreutzer Sonata",
+   "a": "Крейцерова соната",
+   "y": 1987,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Mikhail Schweitzer",
+    "Sofiya Milkina"
+   ],
+   "g": [
+    "Romance",
+    "Drama"
+   ],
+   "cast": [
+    "Oleg Yankovsky"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "Lglkp7Ba-Rg",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 150,
+     "parts": [
+      "Lglkp7Ba-Rg",
+      "RK0RVYu-NxI"
+     ]
     }
    ]
   },
@@ -28309,6 +30590,40 @@
    ]
   },
   {
+   "id": "vybor-1987",
+   "s": "world",
+   "t": "Vybor",
+   "a": "Выбор",
+   "y": 1987,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Vladimir Naumov"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Mikhail Ulyanov",
+    "Natalya Belokhvostikova",
+    "Algis Matulionis",
+    "Yelena Fadeyeva",
+    "Wacław Dworzecki"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "KR3CcOIebXs",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 134,
+     "parts": [
+      "KR3CcOIebXs",
+      "65tJgeRJvI8"
+     ]
+    }
+   ]
+  },
+  {
    "id": "q63027839-1987",
    "s": "world",
    "t": "Без солнца",
@@ -28335,6 +30650,36 @@
      "id": "Q5oLN-l27jM",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 101
+    }
+   ]
+  },
+  {
+   "id": "q4186832-1987",
+   "s": "world",
+   "t": "Запомните меня такой",
+   "a": "",
+   "y": 1987,
+   "l": "Russian",
+   "c": "Soviet Union",
+   "d": [
+    "Pavel Chukhray"
+   ],
+   "g": [
+    "Drama"
+   ],
+   "cast": [
+    "Angelina Stepanova"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "PPZR-PphoRM",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 132,
+     "parts": [
+      "PPZR-PphoRM",
+      "DxSr5xQX0qc"
+     ]
     }
    ]
   },
@@ -28964,6 +31309,73 @@
    ]
   },
   {
+   "id": "mother-1990",
+   "s": "world",
+   "t": "Mother",
+   "a": "Мать",
+   "y": 1990,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Gleb Panfilov"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ],
+   "cast": [
+    "Inna Churikova",
+    "Mario Adorf",
+    "Antonella Interlenghi",
+    "Andrei Rostotsky",
+    "Innokenty Smoktunovsky"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "JXSvw3aMMqk",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 190,
+     "parts": [
+      "JXSvw3aMMqk",
+      "gVG5NNYV6vs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "posrednik-1990",
+   "s": "world",
+   "t": "Posrednik",
+   "a": "Посредник",
+   "y": 1990,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Vladimir Potapov"
+   ],
+   "g": [],
+   "cast": [
+    "Olesya Sudzilovskaya",
+    "Valery Storozhik",
+    "Ināra Slucka",
+    "Yevgeny Redko"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "zB-YQPiQqBg",
+     "by": "Киностудия Горького",
+     "mins": 219,
+     "parts": [
+      "zB-YQPiQqBg",
+      "8Xxj8xDJ660",
+      "0yDGhN-y4e8"
+     ]
+    }
+   ]
+  },
+  {
    "id": "rebro-adama-1990",
    "s": "world",
    "t": "Rebro Adama",
@@ -28986,6 +31398,40 @@
      "id": "nNVwosCwjlY",
      "by": "Киноконцерн \"Мосфильм\"",
      "mins": 74
+    }
+   ]
+  },
+  {
+   "id": "stalingrad-1990",
+   "s": "world",
+   "t": "Stalingrad",
+   "a": "Сталинград",
+   "y": 1990,
+   "l": "Russian",
+   "c": "",
+   "d": [
+    "Yuri Ozerov"
+   ],
+   "g": [
+    "War"
+   ],
+   "cast": [
+    "Powers Boothe",
+    "Fyodor Bondarchuk",
+    "Liubomiras Laucevičius",
+    "Mikhail Ulyanov",
+    "Nikolai Kryuchkov"
+   ],
+   "src": [
+    {
+     "kind": "yt",
+     "id": "7MU_HhTLXcE",
+     "by": "Киноконцерн \"Мосфильм\"",
+     "mins": 193,
+     "parts": [
+      "7MU_HhTLXcE",
+      "FSslPhaPVzQ"
+     ]
     }
    ]
   },

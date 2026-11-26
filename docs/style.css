@@ -129,6 +129,9 @@ section { margin: 40px 0; }
 
 /* ---- film page ---- */
 .film { margin-top: 22px; }
+.film .parts { margin-top: 14px; display: grid; gap: 8px; }
+.film .parts .chip { cursor: pointer; font: inherit; font-size: .9rem; }
+.film .parts .chip:hover { border-color: var(--ink3); }
 .film .info { display: grid; gap: 28px; margin-top: 22px; }
 @media (min-width: 900px) { .film .info { grid-template-columns: 1.4fr 1fr; } }
 .film h1 { font-size: clamp(2rem, 4.5vw, 3rem); }

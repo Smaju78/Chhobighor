@@ -51,6 +51,65 @@ PARTS = re.compile(r"(\d\s*(серия|часть|rész|część)|(серия|ч
 DISAMBIG = re.compile(r"\s*\((?:[^()]*\b(?:film|фильм|filmy?|телефильм|movie)\b[^()]*)\)\s*$", re.I)
 
 
+WORDNUM = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "i": 1, "ii": 2, "iii": 3, "iv": 4}
+PART_MARK = [  # (regex, group of the part number, group of the total)
+    (re.compile(r"\(?\bpart\s*0*(\d{1,2})\s*(?:of|/)\s*0*(\d{1,2})\b\)?", re.I), 1, 2),
+    (re.compile(r"\(?\b(?:movie\s+)?(?:in\s+)?part\s*0*(\d{1,2})\b\)?", re.I), 1, None),
+    (re.compile(r"\bpart\s+(one|two|three|four|five|iv|iii|ii|i)\b", re.I), 1, None),
+    (re.compile(r"\(?\b(\d{1,2})\s*-?\s*(?:я\s+)?(?:серия|часть|rész|część)\)?", re.I), 1, None),
+    (re.compile(r"\(?\b(?:серия|часть)\s*(\d{1,2})\b\)?", re.I), 1, None),
+]
+MIN_PART_SECONDS = 5 * 60
+
+
+def part_of(title):
+    """'Jaali Note - Part 12 Of 12 - Dev Anand' -> (12, 12, 'Jaali Note -  - Dev Anand'); None if not a part."""
+    for rx, gn, gt in PART_MARK:
+        m = rx.search(title)
+        if m:
+            n = m.group(gn).lower()
+            n = WORDNUM.get(n) or int(n)
+            total = int(m.group(gt)) if gt else None
+            if 1 <= n <= 40 and (total is None or n <= total <= 40):
+                return n, total, (title[:m.start()] + " " + title[m.end():]).strip()
+    return None
+
+
+def part_groups(info, part_cands, by_key):
+    """Films a channel uploaded in parts, kept only when every part from 1 to the last is there (and the last is the
+    stated total, when the titles give one), each part is public and embeddable, and together they run a feature's
+    length. Parts are grouped by channel, the film their title names, and the stated total."""
+    slots = {}
+    for vid, (n, total, rest) in part_cands.items():
+        v = info.get(vid)
+        if not v or not v["ok"] or v["secs"] < MIN_PART_SECONDS:
+            continue
+        qs = {q for part in SPLIT.split(rest) for q in by_key.get(key(NOISE.sub(" ", part)), [])}
+        # Every part must carry the same base title: clip uploads with a different caption per part, and series that
+        # mix sub-films ('Battle for Moscow: Aggression' / 'Typhoon'), fall apart into incomplete groups.
+        shape = key(re.split(r"[(|]", rest)[0])
+        if re.search(r":\s*[\"«“]", rest):  # 'Битва за Москву: "Агрессия"' is one half of a longer film
+            continue
+        for q in qs:
+            g = slots.setdefault((v["channel"], q, total, shape), {})
+            if n not in g or v["views"] > info[g[n]]["views"]:  # same film uploaded twice: keep the watched copy
+                g[n] = vid
+    out = []
+    for (_, q, total, _), g in slots.items():
+        last = max(g)
+        if last < 2 or set(g) != set(range(1, last + 1)) or (total and last != total):
+            continue
+        vids = [g[i] for i in range(1, last + 1)]
+        vs = [info[x] for x in vids]
+        # Parts dated years apart are separate films (Ivan the Terrible 1944 / 1958 as 'серия 1, 2').
+        years = {int(y) for v in vs for y in re.findall(r"(?<!\d)(19[0-9]{2})(?!\d)", v["title"])}
+        if years and max(years) - min(years) > 1:
+            continue
+        if sum(v["secs"] for v in vs) >= MIN_SECONDS:
+            out.append((";".join(vids), q, vs))
+    return out
+
+
 def clean(label):
     """'Украденный поезд (фильм)' -> 'Украденный поезд'; 'Rakhi (1962 film)' -> 'Rakhi'."""
     return DISAMBIG.sub("", label or "").strip()
@@ -230,9 +289,14 @@ def main():
         print(f"Stopping: quota ({e}). Run again tomorrow.")
         return
     cands = [vid for vid, t in uploads.items() if not BAD.search(t) and not PARTS.search(t)]
-    print(f"{len(uploads)} uploads, {len(cands)} possible films.", flush=True)
+    part_cands = {}  # vid -> (n, total or None, title without the part marker)
+    for vid, t in uploads.items():
+        p = part_of(t)
+        if p and not BAD.search(p[2]):
+            part_cands[vid] = p
+    print(f"{len(uploads)} uploads, {len(cands)} possible films, {len(part_cands)} film parts.", flush=True)
     try:
-        info = video_info(api, cands)
+        info = video_info(api, cands + list(part_cands))
     except QuotaExceeded as e:
         print(f"Stopping while checking videos: quota ({e}). Run again tomorrow to continue.")
         return
@@ -253,7 +317,9 @@ def main():
             k = key(NOISE.sub(" ", part))
             for q in by_key.get(k, []):
                 pairs.append((vid, q))
-    det = details(sorted({q for _, q in pairs}))
+    groups = part_groups(info, part_cands, by_key)  # (vid1;vid2;..., qid, [infos])
+    print(f"{len(groups)} complete multi-part uploads matched a film title.", flush=True)
+    det = details(sorted({q for _, q in pairs} | {q for _, q, _ in groups}))
 
     hand = {(key(f["title"]), f["year"]) for f in load_catalogue(include_generated=False)}
     hand |= {(key(f["alt"]), f["year"]) for f in load_catalogue(include_generated=False) if f["alt"]}
@@ -263,9 +329,18 @@ def main():
         if not confirmed(f, d, v):
             continue
         latin = bool(re.search(r"[A-Za-z]{3}", v["title"]))  # prefer English-titled (subtitled) uploads
-        score = (latin, v["views"])
+        score = (True, latin, v["views"])  # one full upload beats any multi-part one
         if q not in best or score > best[q][0]:
             best[q] = (score, vid)
+    for vids, q, vs in groups:
+        f, d = films[q], det[q]
+        if not any(confirmed(f, d, v) for v in vs):
+            continue
+        if re.search(r"\bpart (one|1|i)\b", f["labels"].get("en", ""), re.I):  # 'Ivan the Terrible, Part One':
+            vids = vids.split(";")[0]                                         # part 2 is a film of its own
+        score = (False, bool(re.search(r"[A-Za-z]{3}", vs[0]["title"])), vs[0]["views"])
+        if q not in best or score > best[q][0]:
+            best[q] = (score, vids)
 
     rows = []
     for q, (_, vid) in best.items():

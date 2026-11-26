@@ -11,9 +11,13 @@ def main():
     films, missing = [], []
     for f in load_catalogue():
         sources = []
-        v = videos.get(f["video"]) if f["video"] else None
-        if v:
-            sources.append({"kind": "yt", "id": f["video"], "by": v["channel"], "mins": round(v["secs"] / 60)})
+        ids = [x for x in f["video"].split(";") if x]  # several ids: the film is on YouTube in parts, in order
+        vs = [videos.get(x) for x in ids]
+        if ids and all(vs):
+            src = {"kind": "yt", "id": ids[0], "by": vs[0]["channel"], "mins": round(sum(v["secs"] for v in vs) / 60)}
+            if len(ids) > 1:
+                src["parts"] = ids
+            sources.append(src)
         elif yt.get(f["id"]):
             m = yt[f["id"]]
             sources.append({"kind": "yt", "id": m["video"], "by": m["channel"], "mins": round(m["seconds"] / 60)})
